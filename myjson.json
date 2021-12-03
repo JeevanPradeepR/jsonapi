@@ -1,0 +1,56 @@
+{
+   "transaction_details":[
+      {
+         "transaction_info":{
+            "paypal_account_id":"T7A52A544DWWN",
+            "transaction_id":"5P662060UW540492J",
+            "transaction_event_code":"T0000",
+            "transaction_initiation_date":"2021-11-08T21:38:06+0000",
+            "transaction_updated_date":"2021-11-08T21:38:06+0000",
+            "transaction_amount":{
+               "currency_code":"USD",
+               "value":"9.00"
+            },
+            "fee_amount":{
+               "currency_code":"USD",
+               "value":"-0.80"
+            },
+            "transaction_status":"S",
+            "transaction_note":"This is testing P2P scenario",
+            "protection_eligibility":"01"
+         },
+         "payer_info":{
+            "account_id":"T7A52A544DWWN",
+            "email_address":"samplemock@gmail.com",
+            "address_status":"N",
+            "payer_status":"Y",
+            "payer_name":{
+               "alternate_full_name":"John Doe's Test Store"
+            },
+            "country_code":"US"
+         },
+         "shipping_info":{
+            "name":"Michael, Ronaldo",
+            "address":{
+               "line1":"1 Main St",
+               "city":"San Jose",
+               "state":"CA",
+               "country_code":"US",
+               "postal_code":"95131"
+            }
+         },
+         "cart_info":{
+            
+         },
+         "store_info":{
+            
+         },
+         "auction_info":{
+            
+         },
+         "incentive_info":{
+            
+         }
+      }
+   ]
+}
