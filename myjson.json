@@ -4570,7 +4570,7 @@
                "value":"-35721.07"
             },
             "transaction_status":"S",
-            "transaction_subject":"$35,721.07 USD;PayPal Posting Date:Apr 8, 2021;Payment to:tomer@mevohot.com;We have completed your funds transfer as requested. Thank you for using PayPal",
+            "transaction_subject":"We have completed your funds transfer as requested Thank you for using PayPal",
             "ending_balance":{
                "currency_code":"USD",
                "value":"0.00"
