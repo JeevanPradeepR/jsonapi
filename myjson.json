@@ -4824,17 +4824,17 @@
             "transaction_initiation_date":"2021-07-25T07:11:05+0000",
             "transaction_updated_date":"2021-07-25T07:11:05+0000",
             "transaction_amount":{
-               "currency_code":"EUR",
+               "currency_code":"USD",
                "value":"2.78"
             },
             "transaction_status":"S",
             "payment_tracking_id":"PAYPAL:AC1584572F084D2A00000150926D4A18CA5C",
             "ending_balance":{
-               "currency_code":"EUR",
+               "currency_code":"USD",
                "value":"3003.68"
             },
             "available_balance":{
-               "currency_code":"EUR",
+               "currency_code":"USD",
                "value":"167.85"
             },
             "invoice_id":"87983",
