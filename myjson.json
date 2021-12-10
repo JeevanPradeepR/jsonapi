@@ -7224,16 +7224,16 @@
             "transaction_initiation_date":"2021-11-10T12:52:47+0000",
             "transaction_updated_date":"2021-11-10T13:09:09+0000",
             "transaction_amount":{
-               "currency_code":"HKD",
+               "currency_code":"USD",
                "value":"499.00"
             },
             "transaction_status":"D",
             "ending_balance":{
-               "currency_code":"HKD",
+               "currency_code":"USD",
                "value":"11885.03"
             },
             "available_balance":{
-               "currency_code":"HKD",
+               "currency_code":"USD",
                "value":"11885.03"
             },
             "protection_eligibility":"02"
