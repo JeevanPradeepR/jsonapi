@@ -5312,51 +5312,7 @@
             
          }
       },
-      {
-         "transaction_info":{
-            "transaction_id":"7839630004918894R",
-            "paypal_reference_id":"7MD049292V983302G",
-            "paypal_reference_id_type":"TXN",
-            "transaction_event_code":"T9701",
-            "transaction_initiation_date":"2021-11-30T04:00:32+0000",
-            "transaction_updated_date":"2021-11-30T04:00:32+0000",
-            "transaction_amount":{
-               "currency_code":"USD",
-               "value":"927.00"
-            },
-            "transaction_status":"S",
-            "ending_balance":{
-               "currency_code":"USD",
-               "value":"-635.93"
-            },
-            "available_balance":{
-               "currency_code":"USD",
-               "value":"-635.93"
-            },
-            "protection_eligibility":"02"
-         },
-         "payer_info":{
-            "address_status":"N",
-            "payer_name":{
-               
-            }
-         },
-         "shipping_info":{
-            
-         },
-         "cart_info":{
-            
-         },
-         "store_info":{
-            
-         },
-         "auction_info":{
-            
-         },
-         "incentive_info":{
-            
-         }
-      },
+      
       {
          "transaction_info":{
             "transaction_id":"1KF22516EY9339325",
