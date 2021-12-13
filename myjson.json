@@ -11435,7 +11435,7 @@
              "tax_percentage":"0",
              "item_amount": {
                 "currency_code": "USD",
-                "value": "4.66666667"
+                "value": "4.66"
             }
           },
           {
@@ -11446,7 +11446,7 @@
              "tax_percentage":"0",
              "item_amount": {
                 "currency_code": "USD",
-                "value": "4.66666667"
+                "value": "4.67"
             }
           },{
              "item_code":"8700",
@@ -11456,7 +11456,7 @@
              "tax_percentage":"0",
              "item_amount": {
                 "currency_code": "USD",
-                "value": "4.66666667"
+                "value": "4.67"
             }
           }
        ]
