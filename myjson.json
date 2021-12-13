@@ -11403,7 +11403,7 @@
        "transaction_updated_date":"2021-12-12T21:23:11+0000",
        "transaction_amount":{
           "currency_code":"USD",
-          "value":"-28.20"
+          "value":"-14.00"
        },
        "transaction_status":"S",
        "payment_tracking_id":"PAYPAL:AC1584572F084D2A00000150926D4A18CA5C",
@@ -11435,7 +11435,7 @@
              "tax_percentage":"0",
              "item_amount": {
                 "currency_code": "USD",
-                "value": "14.10"
+                "value": "4.66666667"
             }
           },
           {
@@ -11446,7 +11446,17 @@
              "tax_percentage":"0",
              "item_amount": {
                 "currency_code": "USD",
-                "value": "14.10"
+                "value": "4.66666667"
+            }
+          },{
+             "item_code":"8700",
+             "item_name":"Mon  Guerlain Eau de Toilette  100 ml boite blanc",
+             "item_description":"Mon Exclusif  Guerlain Eau de Parfum 50 ml ...",
+             "item_quantity":"1.000",
+             "tax_percentage":"0",
+             "item_amount": {
+                "currency_code": "USD",
+                "value": "4.66666667"
             }
           }
        ]
