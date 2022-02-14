@@ -1,0 +1,124 @@
+{
+   "transactions":[
+      {
+         "date":"2021-07-20T07:17:30.000Z",
+         "feedDate":"2021-07-24T05:27:18.336Z",
+         "type":"Charge",
+         "id":"11UCYML6VYFB",
+         "amount":{
+            "currencyCode":"USD",
+            "amount":"11.29"
+         },
+         "paymentInstrumentType":"American Express",
+         "paymentInstrumentLast4Digits":"6018",
+         "purchaseOrderActors":{
+            "buyingCustomerId":"amzn1.account.AH52VBO****Q",
+            "buyingCustomerName":"Amzn Cust",
+            "buyingCustomerEmail":"amzn@gmail.com",
+            "payingCustomerId":"amzn1.account.AH52VBO****Q",
+            "payingCustomerName":"Amzn Cust",
+            "payingCustomerEmail":"amzn@gmail.com"
+         },
+         "associatedTransactionDetails":[
+            
+         ],
+         "transactionLineItems":[
+            {
+               "refundReason":null,
+               "amount":{
+                  "currencyCode":"USD",
+                  "amount":"11.29"
+               },
+               "principalAmount":{
+                  "currencyCode":"USD",
+                  "amount":"5.3"
+               },
+               "shippingCharge":{
+                  "currencyCode":"USD",
+                  "amount":"5.99"
+               },
+               "regulatoryFee":null,
+               "giftWrappingCharge":null,
+               "discount":null,
+               "tax":{
+                  "currencyCode":"USD",
+                  "amount":"0.0"
+               },
+               "orderId":"111-9074156-0878635",
+               "unspsc":"50201706",
+               "orderLineItemId":"45425113419481",
+               "poNumber":"12345",
+               "poLineItemId":null,
+               "asin":"B071ZR7H65",
+               "productTitle":"AmazonFresh Colombia Ground Coffee, Medium Roast, 12 Ounce",
+               "itemQuantity":1,
+               "shipmentId":"UWXhJy2By",
+               "shipmentDate":"2021-07-20T06:15:43.000Z",
+               "merchantLegalName":"Amazon.com Services LLC",
+               "budgetId":null
+            }
+         ]
+      },
+      {
+         "date":"2021-08-13T04:00:25.000Z",
+         "feedDate":"2021-08-13T06:13:57.807Z",
+         "type":"Charge",
+         "id":"542M08OAVEZY",
+         "amount":{
+            "currencyCode":"USD",
+            "amount":"21.48"
+         },
+         "paymentInstrumentType":"American Express",
+         "paymentInstrumentLast4Digits":"6018",
+        "purchaseOrderActors":{
+            "buyingCustomerId":"amzn1.account.AH52VBO****Q",
+            "buyingCustomerName":"Amzn Cust",
+            "buyingCustomerEmail":"amzn@gmail.com",
+            "payingCustomerId":"amzn1.account.AH52VBO****Q",
+            "payingCustomerName":"Amzn Cust",
+            "payingCustomerEmail":"amzn@gmail.com"
+         },
+         "associatedTransactionDetails":[
+            
+         ],
+         "transactionLineItems":[
+            {
+               "refundReason":null,
+               "amount":{
+                  "currencyCode":"USD",
+                  "amount":"21.48"
+               },
+               "principalAmount":{
+                  "currencyCode":"USD",
+                  "amount":"15.49"
+               },
+               "shippingCharge":{
+                  "currencyCode":"USD",
+                  "amount":"5.99"
+               },
+               "regulatoryFee":null,
+               "giftWrappingCharge":null,
+               "discount":null,
+               "tax":{
+                  "currencyCode":"USD",
+                  "amount":"0.0"
+               },
+               "orderId":"114-1025354-9148268",
+               "unspsc":"50201706",
+               "orderLineItemId":"46181677469881",
+               "poNumber":"24",
+               "poLineItemId":null,
+               "asin":"B071WWBKF2",
+               "productTitle":"AmazonFresh Just Bright Whole Bean Coffee, Light Roast, 32 Ounce (Pack of 1)",
+               "itemQuantity":1,
+               "shipmentId":"UhYmSnngV",
+               "shipmentDate":"2021-08-13T02:52:23.000Z",
+               "merchantLegalName":"Amazon.com Services LLC",
+               "budgetId":null
+            }
+         ]
+      }
+   ],
+   "nextPageToken":"",
+   "size":2
+}
