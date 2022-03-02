@@ -1,124 +1,2495 @@
-{
-   "transactions":[
+[
+  {
+    "transactionDate": "2021-05-15T19:00:25.263Z",
+    "feedDate": "2022-02-25T11:31:21.793Z",
+    "transactionType": "CHARGE",
+    "transactionId": "7314TIJ976S5",
+    "shipTaxRate": "0.00",
+    "giftWrapTaxRate": "0.00",
+    "legalEntityName": "Kaitlyn's Resume",
+    "purchasingCustomerGroupName": "Kaitlyn's Resume",
+    "amount": {
+      "currencyCode": "USD",
+      "amount": "195.56"
+    },
+    "paymentInstrumentType": "American Express",
+    "paymentInstrumentLast4Digits": "6018",
+    "buyer": {
+      "id": "amzn1.account.EMKEKP7XSLPWEBMXUHXHEMTUNF2GINLRMZYGCNTDNB2TGN32NFQQKWIYZKMIWVP5QU7LMO4T4NVAZ7GLFDISGRXMZW6EC7LZYZIXNFY",
+      "name": "Kaitlyn's Resume",
+      "email": ""
+    },
+    "payer": null,
+    "associatedTransactionDetails": [],
+    "transactionLineItems": [
       {
-         "date":"2021-07-20T07:17:30.000Z",
-         "feedDate":"2021-07-24T05:27:18.336Z",
-         "type":"Charge",
-         "id":"11UCYML6VYFB",
-         "amount":{
-            "currencyCode":"USD",
-            "amount":"11.29"
-         },
-         "paymentInstrumentType":"American Express",
-         "paymentInstrumentLast4Digits":"6018",
-         "purchaseOrderActors":{
-            "buyingCustomerId":"amzn1.account.AH52VBO****Q",
-            "buyingCustomerName":"Amzn Cust",
-            "buyingCustomerEmail":"amzn@gmail.com",
-            "payingCustomerId":"amzn1.account.AH52VBO****Q",
-            "payingCustomerName":"Amzn Cust",
-            "payingCustomerEmail":"amzn@gmail.com"
-         },
-         "associatedTransactionDetails":[
-            
-         ],
-         "transactionLineItems":[
-            {
-               "refundReason":null,
-               "amount":{
-                  "currencyCode":"USD",
-                  "amount":"11.29"
-               },
-               "principalAmount":{
-                  "currencyCode":"USD",
-                  "amount":"5.3"
-               },
-               "shippingCharge":{
-                  "currencyCode":"USD",
-                  "amount":"5.99"
-               },
-               "regulatoryFee":null,
-               "giftWrappingCharge":null,
-               "discount":null,
-               "tax":{
-                  "currencyCode":"USD",
-                  "amount":"0.0"
-               },
-               "orderId":"111-9074156-0878635",
-               "unspsc":"50201706",
-               "orderLineItemId":"45425113419481",
-               "poNumber":"12345",
-               "poLineItemId":null,
-               "asin":"B071ZR7H65",
-               "productTitle":"AmazonFresh Colombia Ground Coffee, Medium Roast, 12 Ounce",
-               "itemQuantity":1,
-               "shipmentId":"UWXhJy2By",
-               "shipmentDate":"2021-07-20T06:15:43.000Z",
-               "merchantLegalName":"Amazon.com Services LLC",
-               "budgetId":null
-            }
-         ]
+        "refundReason": null,
+        "totalAmount": {
+          "currencyCode": "USD",
+          "amount": "195.56"
+        },
+        "principalAmount": {
+          "currencyCode": "USD",
+          "amount": "179.00"
+        },
+        "shippingCharge": null,
+        "regulatoryFee": null,
+        "giftWrappingCharge": null,
+        "discount": {
+          "currencyCode": "USD",
+          "amount": "0.0"
+        },
+        "tax": {
+          "currencyCode": "USD",
+          "amount": "16.56"
+        },
+        "unitPrice": {
+          "currencyCode": "USD",
+          "amount": "179.00"
+        },
+        "taxRate": "0.0",
+        "orderId": "D01-2534803-5833841",
+        "unspsc": "64131500",
+        "orderLineItemId": "11613086270960",
+        "purchaseOrderNumber": null,
+        "purchaseOrderLineItemId": null,
+        "asin": "B07HSRNWBG",
+        "productTitle": "Business Prime Essentials - Membership Fee",
+        "itemQuantity": 1,
+        "shipmentId": null,
+        "shipmentDate": null,
+        "merchantLegalName": "Amazon.com Services LLC",
+        "budgetId": null,
+        "businessOrderInfo": null
+      }
+    ]
+  },
+  {
+    "transactionDate": "2022-02-03T08:08:33Z",
+    "feedDate": "2022-02-03T08:52:53.92Z",
+    "transactionType": "CHARGE",
+    "transactionId": "1S5YPZXCEXH8",
+    "shipTaxRate": "0.0938",
+    "giftWrapTaxRate": "0.00",
+    "legalEntityName": "Kaitlyn's Resume",
+    "purchasingCustomerGroupName": "Kaitlyn's Resume",
+    "amount": {
+      "currencyCode": "USD",
+      "amount": "16.83"
+    },
+    "paymentInstrumentType": "American Express",
+    "paymentInstrumentLast4Digits": "6018",
+    "buyer": {
+      "id": "amzn1.account.IPJV3Y7H547S4OTUIYFXEMTUNF2GINLRMZYGCNTDNB2TGN32NFQWFN3U7GUWORJFH6X7WFG54LCQUAIER24KPTPV3SFYCVXTGJ2OADQ",
+      "name": "Kaitlyn Will",
+      "email": "kwill6165@gmail.com"
+    },
+    "payer": {
+      "id": "amzn1.account.IPJV3Y7H547S4OTUIYFXEMTUNF2GINLRMZYGCNTDNB2TGN32NFQWFN3U7GUWORJFH6X7WFG54LCQUAIER24KPTPV3SFYCVXTGJ2OADQ",
+      "name": "Kaitlyn Will",
+      "email": "kwill6165@gmail.com"
+    },
+    "associatedTransactionDetails": [],
+    "transactionLineItems": [
+      {
+        "refundReason": null,
+        "totalAmount": {
+          "currencyCode": "USD",
+          "amount": "16.83"
+        },
+        "principalAmount": {
+          "currencyCode": "USD",
+          "amount": "9.4"
+        },
+        "shippingCharge": {
+          "currencyCode": "USD",
+          "amount": "5.99"
+        },
+        "regulatoryFee": null,
+        "giftWrappingCharge": null,
+        "discount": null,
+        "tax": {
+          "currencyCode": "USD",
+          "amount": "1.44"
+        },
+        "unitPrice": {
+          "currencyCode": "USD",
+          "amount": "9.40"
+        },
+        "taxRate": "0.0938",
+        "orderId": "114-1478266-7333853",
+        "unspsc": "43202222",
+        "orderLineItemId": "52393933915481",
+        "purchaseOrderNumber": "",
+        "purchaseOrderLineItemId": null,
+        "asin": "B082T6K8XX",
+        "productTitle": "Amazon Basics New Release ABS USB-A to Lightning Cable Cord, MFi Certified Charger for Apple iPhone, iPad, White, 6-Ft",
+        "itemQuantity": 1,
+        "shipmentId": "TBglVFcMw",
+        "shipmentDate": "2022-02-03T06:43:52Z",
+        "merchantLegalName": "Amazon.com Services LLC",
+        "budgetId": null,
+        "businessOrderInfo": {
+          "Department": "89065",
+          "GL code": "Other expense",
+          "Project code": "5678",
+          "Cost center": "1234",
+          "Location": ""
+        }
+      }
+    ]
+  },
+  {
+    "transactionDate": "2022-01-28T17:39:32Z",
+    "feedDate": "2022-01-28T18:21:50.232Z",
+    "transactionType": "CHARGE",
+    "transactionId": "60P2EEM549KJ",
+    "shipTaxRate": "0.0938",
+    "giftWrapTaxRate": "0.00",
+    "legalEntityName": "Kaitlyn's Resume",
+    "purchasingCustomerGroupName": "Kaitlyn's Resume",
+    "amount": {
+      "currencyCode": "USD",
+      "amount": "22.95"
+    },
+    "paymentInstrumentType": "American Express",
+    "paymentInstrumentLast4Digits": "6018",
+    "buyer": {
+      "id": "amzn1.account.IPJV3Y7H547S4OTUIYFXEMTUNF2GINLRMZYGCNTDNB2TGN32NFQWFN3U7GUWORJFH6X7WFG54LCQUAIER24KPTPV3SFYCVXTGJ2OADQ",
+      "name": "Kaitlyn Will",
+      "email": "kwill6165@gmail.com"
+    },
+    "payer": {
+      "id": "amzn1.account.IPJV3Y7H547S4OTUIYFXEMTUNF2GINLRMZYGCNTDNB2TGN32NFQWFN3U7GUWORJFH6X7WFG54LCQUAIER24KPTPV3SFYCVXTGJ2OADQ",
+      "name": "Kaitlyn Will",
+      "email": "kwill6165@gmail.com"
+    },
+    "associatedTransactionDetails": [],
+    "transactionLineItems": [
+      {
+        "refundReason": null,
+        "totalAmount": {
+          "currencyCode": "USD",
+          "amount": "22.95"
+        },
+        "principalAmount": {
+          "currencyCode": "USD",
+          "amount": "14.99"
+        },
+        "shippingCharge": {
+          "currencyCode": "USD",
+          "amount": "5.99"
+        },
+        "regulatoryFee": null,
+        "giftWrappingCharge": null,
+        "discount": null,
+        "tax": {
+          "currencyCode": "USD",
+          "amount": "1.97"
+        },
+        "unitPrice": {
+          "currencyCode": "USD",
+          "amount": "14.99"
+        },
+        "taxRate": "0.0938",
+        "orderId": "113-3029945-5495417",
+        "unspsc": "14111500",
+        "orderLineItemId": "52125494178521",
+        "purchaseOrderNumber": "",
+        "purchaseOrderLineItemId": null,
+        "asin": "B084T5Q9CC",
+        "productTitle": "to Do List Daily Task Checklist Planner Time Management Notebook by Bright Day Non Dated Flex Cover Spiral Organizer 8.25 x 6.25 (Rose Gold)",
+        "itemQuantity": 1,
+        "shipmentId": "TkwpJgyY9",
+        "shipmentDate": "2022-01-28T16:17:28Z",
+        "merchantLegalName": "Torquay eTrading LLC",
+        "budgetId": null,
+        "businessOrderInfo": {
+          "Department": "3",
+          "GL code": "Other expense",
+          "Project code": "2",
+          "Cost center": "1",
+          "Location": ""
+        }
+      }
+    ]
+  },
+  {
+    "transactionDate": "2022-01-26T22:49:28Z",
+    "feedDate": "2022-01-26T23:22:16.05Z",
+    "transactionType": "CHARGE",
+    "transactionId": "4PRLTEUXJ5NG",
+    "shipTaxRate": "0.0",
+    "giftWrapTaxRate": "0.00",
+    "legalEntityName": "Kaitlyn's Resume",
+    "purchasingCustomerGroupName": "Kaitlyn's Resume",
+    "amount": {
+      "currencyCode": "USD",
+      "amount": "20.87"
+    },
+    "paymentInstrumentType": "American Express",
+    "paymentInstrumentLast4Digits": "6018",
+    "buyer": {
+      "id": "amzn1.account.IPJV3Y7H547S4OTUIYFXEMTUNF2GINLRMZYGCNTDNB2TGN32NFQWFN3U7GUWORJFH6X7WFG54LCQUAIER24KPTPV3SFYCVXTGJ2OADQ",
+      "name": "Kaitlyn Will",
+      "email": "kwill6165@gmail.com"
+    },
+    "payer": {
+      "id": "amzn1.account.IPJV3Y7H547S4OTUIYFXEMTUNF2GINLRMZYGCNTDNB2TGN32NFQWFN3U7GUWORJFH6X7WFG54LCQUAIER24KPTPV3SFYCVXTGJ2OADQ",
+      "name": "Kaitlyn Will",
+      "email": "kwill6165@gmail.com"
+    },
+    "associatedTransactionDetails": [],
+    "transactionLineItems": [
+      {
+        "refundReason": null,
+        "totalAmount": {
+          "currencyCode": "USD",
+          "amount": "20.87"
+        },
+        "principalAmount": {
+          "currencyCode": "USD",
+          "amount": "14.88"
+        },
+        "shippingCharge": {
+          "currencyCode": "USD",
+          "amount": "5.99"
+        },
+        "regulatoryFee": null,
+        "giftWrappingCharge": null,
+        "discount": null,
+        "tax": {
+          "currencyCode": "USD",
+          "amount": "0.0"
+        },
+        "unitPrice": {
+          "currencyCode": "USD",
+          "amount": "14.88"
+        },
+        "taxRate": "0.0",
+        "orderId": "114-4105176-2775401",
+        "unspsc": "50000000",
+        "orderLineItemId": "52136732155561",
+        "purchaseOrderNumber": "",
+        "purchaseOrderLineItemId": null,
+        "asin": "B0069VO1G8",
+        "productTitle": "Snack Pack Chocolate Pudding Cups, 4 Count, 12 Pack",
+        "itemQuantity": 1,
+        "shipmentId": "T44ZRRXQ9",
+        "shipmentDate": "2022-01-26T21:47:53Z",
+        "merchantLegalName": "Amazon.com Services LLC",
+        "budgetId": null,
+        "businessOrderInfo": {
+          "Department": "Food",
+          "GL code": "Other expense",
+          "Project code": "Test Proj",
+          "Cost center": "123",
+          "Location": ""
+        }
+      }
+    ]
+  },
+  {
+    "transactionDate": "2022-01-26T22:40:10.23Z",
+    "feedDate": "2022-01-26T23:06:37.419Z",
+    "transactionType": "CHARGE",
+    "transactionId": "6U9MNN9PB2MN",
+    "shipTaxRate": "0.0938",
+    "giftWrapTaxRate": "0.00",
+    "legalEntityName": "Kaitlyn's Resume",
+    "purchasingCustomerGroupName": "Kaitlyn's Resume",
+    "amount": {
+      "currencyCode": "USD",
+      "amount": "45.05"
+    },
+    "paymentInstrumentType": "American Express",
+    "paymentInstrumentLast4Digits": "6018",
+    "buyer": {
+      "id": "amzn1.account.IPJV3Y7H547S4OTUIYFXEMTUNF2GINLRMZYGCNTDNB2TGN32NFQWFN3U7GUWORJFH6X7WFG54LCQUAIER24KPTPV3SFYCVXTGJ2OADQ",
+      "name": "Kaitlyn Will",
+      "email": "kwill6165@gmail.com"
+    },
+    "payer": {
+      "id": "amzn1.account.IPJV3Y7H547S4OTUIYFXEMTUNF2GINLRMZYGCNTDNB2TGN32NFQWFN3U7GUWORJFH6X7WFG54LCQUAIER24KPTPV3SFYCVXTGJ2OADQ",
+      "name": "Kaitlyn Will",
+      "email": "kwill6165@gmail.com"
+    },
+    "associatedTransactionDetails": [],
+    "transactionLineItems": [
+      {
+        "refundReason": null,
+        "totalAmount": {
+          "currencyCode": "USD",
+          "amount": "20.43"
+        },
+        "principalAmount": {
+          "currencyCode": "USD",
+          "amount": "15.49"
+        },
+        "shippingCharge": {
+          "currencyCode": "USD",
+          "amount": "4.94"
+        },
+        "regulatoryFee": null,
+        "giftWrappingCharge": null,
+        "discount": null,
+        "tax": {
+          "currencyCode": "USD",
+          "amount": "0.0"
+        },
+        "unitPrice": {
+          "currencyCode": "USD",
+          "amount": "15.49"
+        },
+        "taxRate": "0.0",
+        "orderId": "113-8868053-2310664",
+        "unspsc": "50201706",
+        "orderLineItemId": "52122754222441",
+        "purchaseOrderNumber": "",
+        "purchaseOrderLineItemId": null,
+        "asin": "B071GC5RBP",
+        "productTitle": "AmazonFresh Colombia Whole Bean Coffee, Medium Roast, 32 Ounce (Pack of 1)",
+        "itemQuantity": 1,
+        "shipmentId": "TB4TRRXQ9",
+        "shipmentDate": "2022-01-26T21:47:50Z",
+        "merchantLegalName": "Amazon.com Services LLC",
+        "budgetId": null,
+        "businessOrderInfo": {
+          "Department": "3",
+          "GL code": "Snacks",
+          "Project code": "2",
+          "Cost center": "1",
+          "Location": ""
+        }
       },
       {
-         "date":"2021-08-13T04:00:25.000Z",
-         "feedDate":"2021-08-13T06:13:57.807Z",
-         "type":"Charge",
-         "id":"542M08OAVEZY",
-         "amount":{
-            "currencyCode":"USD",
-            "amount":"21.48"
-         },
-         "paymentInstrumentType":"American Express",
-         "paymentInstrumentLast4Digits":"6018",
-        "purchaseOrderActors":{
-            "buyingCustomerId":"amzn1.account.AH52VBO****Q",
-            "buyingCustomerName":"Amzn Cust",
-            "buyingCustomerEmail":"amzn@gmail.com",
-            "payingCustomerId":"amzn1.account.AH52VBO****Q",
-            "payingCustomerName":"Amzn Cust",
-            "payingCustomerEmail":"amzn@gmail.com"
-         },
-         "associatedTransactionDetails":[
-            
-         ],
-         "transactionLineItems":[
-            {
-               "refundReason":null,
-               "amount":{
-                  "currencyCode":"USD",
-                  "amount":"21.48"
-               },
-               "principalAmount":{
-                  "currencyCode":"USD",
-                  "amount":"15.49"
-               },
-               "shippingCharge":{
-                  "currencyCode":"USD",
-                  "amount":"5.99"
-               },
-               "regulatoryFee":null,
-               "giftWrappingCharge":null,
-               "discount":null,
-               "tax":{
-                  "currencyCode":"USD",
-                  "amount":"0.0"
-               },
-               "orderId":"114-1025354-9148268",
-               "unspsc":"50201706",
-               "orderLineItemId":"46181677469881",
-               "poNumber":"24",
-               "poLineItemId":null,
-               "asin":"B071WWBKF2",
-               "productTitle":"AmazonFresh Just Bright Whole Bean Coffee, Light Roast, 32 Ounce (Pack of 1)",
-               "itemQuantity":1,
-               "shipmentId":"UhYmSnngV",
-               "shipmentDate":"2021-08-13T02:52:23.000Z",
-               "merchantLegalName":"Amazon.com Services LLC",
-               "budgetId":null
-            }
-         ]
+        "refundReason": null,
+        "totalAmount": {
+          "currencyCode": "USD",
+          "amount": "24.62"
+        },
+        "principalAmount": {
+          "currencyCode": "USD",
+          "amount": "18.99"
+        },
+        "shippingCharge": {
+          "currencyCode": "USD",
+          "amount": "3.52"
+        },
+        "regulatoryFee": null,
+        "giftWrappingCharge": null,
+        "discount": null,
+        "tax": {
+          "currencyCode": "USD",
+          "amount": "2.11"
+        },
+        "unitPrice": {
+          "currencyCode": "USD",
+          "amount": "18.99"
+        },
+        "taxRate": "0.0938",
+        "orderId": "113-8868053-2310664",
+        "unspsc": "44112000",
+        "orderLineItemId": "52125389398521",
+        "purchaseOrderNumber": "",
+        "purchaseOrderLineItemId": null,
+        "asin": "B088LQWFF7",
+        "productTitle": "Dry Erase Calendar Kit- Magnetic Calendar for Refrigerator - Monthly Fridge Calendar Whiteboard with Extra-Thick Magnet Included Fine Point Marker & E",
+        "itemQuantity": 1,
+        "shipmentId": "TB4TRRXQ9",
+        "shipmentDate": "2022-01-26T21:47:50Z",
+        "merchantLegalName": "HANGZHOUGUANGDAOLIANGTIANMAOYIYOUXIANGONGSI",
+        "budgetId": null,
+        "businessOrderInfo": {
+          "Department": "3",
+          "GL code": "Snacks",
+          "Project code": "2",
+          "Cost center": "1",
+          "Location": ""
+        }
       }
-   ],
-   "nextPageToken":"",
-   "size":2
-}
+    ]
+  },
+  {
+    "transactionDate": "2021-12-12T04:18:36Z",
+    "feedDate": "2021-12-12T04:51:57.152Z",
+    "transactionType": "CHARGE",
+    "transactionId": "39U69S98HBCO",
+    "shipTaxRate": "0.0",
+    "giftWrapTaxRate": "0.00",
+    "legalEntityName": "Kaitlyn's Resume",
+    "purchasingCustomerGroupName": "Kaitlyn's Resume",
+    "amount": {
+      "currencyCode": "USD",
+      "amount": "36.05"
+    },
+    "paymentInstrumentType": "American Express",
+    "paymentInstrumentLast4Digits": "6018",
+    "buyer": {
+      "id": "amzn1.account.IPJV3Y7H547S4OTUIYFXEMTUNF2GINLRMZYGCNTDNB2TGN32NFQWFN3U7GUWORJFH6X7WFG54LCQUAIER24KPTPV3SFYCVXTGJ2OADQ",
+      "name": "Kaitlyn Will",
+      "email": "kwill6165@gmail.com"
+    },
+    "payer": {
+      "id": "amzn1.account.IPJV3Y7H547S4OTUIYFXEMTUNF2GINLRMZYGCNTDNB2TGN32NFQWFN3U7GUWORJFH6X7WFG54LCQUAIER24KPTPV3SFYCVXTGJ2OADQ",
+      "name": "Kaitlyn Will",
+      "email": "kwill6165@gmail.com"
+    },
+    "associatedTransactionDetails": [],
+    "transactionLineItems": [
+      {
+        "refundReason": null,
+        "totalAmount": {
+          "currencyCode": "USD",
+          "amount": "24.05"
+        },
+        "principalAmount": {
+          "currencyCode": "USD",
+          "amount": "21.99"
+        },
+        "shippingCharge": {
+          "currencyCode": "USD",
+          "amount": "1.0"
+        },
+        "regulatoryFee": null,
+        "giftWrappingCharge": null,
+        "discount": {
+          "currencyCode": "USD",
+          "amount": "-1.0"
+        },
+        "tax": {
+          "currencyCode": "USD",
+          "amount": "2.06"
+        },
+        "unitPrice": {
+          "currencyCode": "USD",
+          "amount": "21.99"
+        },
+        "taxRate": "0.0938",
+        "orderId": "112-3569150-9181030",
+        "unspsc": "14111500",
+        "orderLineItemId": "50339295614001",
+        "purchaseOrderNumber": "",
+        "purchaseOrderLineItemId": null,
+        "asin": "B08WKY2Z3H",
+        "productTitle": "Yansanido 4 Pack (B5) Spiral Notebooks Grid Journals Plastic Hardcover Notebooks White Paper for Students Office School Supplies (Grid-4pcs Wine Red,B",
+        "itemQuantity": 1,
+        "shipmentId": "UxbVk3W1p",
+        "shipmentDate": "2021-12-12T03:22:41Z",
+        "merchantLegalName": "LI YAN",
+        "budgetId": null,
+        "businessOrderInfo": {
+          "Department": "123",
+          "GL code": "Snacks",
+          "Project code": "123",
+          "Cost center": "123",
+          "Location": ""
+        }
+      },
+      {
+        "refundReason": null,
+        "totalAmount": {
+          "currencyCode": "USD",
+          "amount": "12.00"
+        },
+        "principalAmount": {
+          "currencyCode": "USD",
+          "amount": "12.0"
+        },
+        "shippingCharge": {
+          "currencyCode": "USD",
+          "amount": "11.26"
+        },
+        "regulatoryFee": null,
+        "giftWrappingCharge": null,
+        "discount": {
+          "currencyCode": "USD",
+          "amount": "-11.26"
+        },
+        "tax": {
+          "currencyCode": "USD",
+          "amount": "0.0"
+        },
+        "unitPrice": {
+          "currencyCode": "USD",
+          "amount": "12.00"
+        },
+        "taxRate": "0.0",
+        "orderId": "112-3569150-9181030",
+        "unspsc": "50000000",
+        "orderLineItemId": "50339295613961",
+        "purchaseOrderNumber": "",
+        "purchaseOrderLineItemId": null,
+        "asin": "B0069VO1G8",
+        "productTitle": "Snack Pack Chocolate Pudding Cups, 4 Count, 12 Pack",
+        "itemQuantity": 1,
+        "shipmentId": "UkwlJDZXp",
+        "shipmentDate": "2021-12-10T03:30:49Z",
+        "merchantLegalName": "Amazon.com Services LLC",
+        "budgetId": null,
+        "businessOrderInfo": {
+          "Department": "123",
+          "GL code": "Snacks",
+          "Project code": "123",
+          "Cost center": "123",
+          "Location": ""
+        }
+      }
+    ]
+  },
+  {
+    "transactionDate": "2021-10-08T18:11:43Z",
+    "feedDate": "2021-10-08T18:44:27.083Z",
+    "transactionType": "CHARGE",
+    "transactionId": "VXVZAR3R28WI",
+    "shipTaxRate": "0.0938",
+    "giftWrapTaxRate": "0.00",
+    "legalEntityName": "Kaitlyn's Resume",
+    "purchasingCustomerGroupName": "Kaitlyn's Resume",
+    "amount": {
+      "currencyCode": "USD",
+      "amount": "16.83"
+    },
+    "paymentInstrumentType": "American Express",
+    "paymentInstrumentLast4Digits": "6018",
+    "buyer": {
+      "id": "amzn1.account.IPJV3Y7H547S4OTUIYFXEMTUNF2GINLRMZYGCNTDNB2TGN32NFQWFN3U7GUWORJFH6X7WFG54LCQUAIER24KPTPV3SFYCVXTGJ2OADQ",
+      "name": "Kaitlyn Will",
+      "email": "kwill6165@gmail.com"
+    },
+    "payer": {
+      "id": "amzn1.account.IPJV3Y7H547S4OTUIYFXEMTUNF2GINLRMZYGCNTDNB2TGN32NFQWFN3U7GUWORJFH6X7WFG54LCQUAIER24KPTPV3SFYCVXTGJ2OADQ",
+      "name": "Kaitlyn Will",
+      "email": "kwill6165@gmail.com"
+    },
+    "associatedTransactionDetails": [],
+    "transactionLineItems": [
+      {
+        "refundReason": null,
+        "totalAmount": {
+          "currencyCode": "USD",
+          "amount": "16.83"
+        },
+        "principalAmount": {
+          "currencyCode": "USD",
+          "amount": "9.4"
+        },
+        "shippingCharge": {
+          "currencyCode": "USD",
+          "amount": "5.99"
+        },
+        "regulatoryFee": null,
+        "giftWrappingCharge": null,
+        "discount": null,
+        "tax": {
+          "currencyCode": "USD",
+          "amount": "1.44"
+        },
+        "unitPrice": {
+          "currencyCode": "USD",
+          "amount": "9.40"
+        },
+        "taxRate": "0.0938",
+        "orderId": "112-4606784-8117025",
+        "unspsc": "43202222",
+        "orderLineItemId": "48062294681361",
+        "purchaseOrderNumber": "",
+        "purchaseOrderLineItemId": null,
+        "asin": "B082T6K8XX",
+        "productTitle": "Amazon Basics ABS USB-A to Lightning Cable Cord, MFi Certified Charger for Apple iPhone, iPad, White, 6-Ft",
+        "itemQuantity": 1,
+        "shipmentId": "UBfTYFcsJ",
+        "shipmentDate": "2021-10-08T17:09:46Z",
+        "merchantLegalName": "Amazon.com Services LLC",
+        "budgetId": null,
+        "businessOrderInfo": {
+          "GL code": "Other expense",
+          "Location": ""
+        }
+      }
+    ]
+  },
+  {
+    "transactionDate": "2021-09-22T17:58:31Z",
+    "feedDate": "2021-09-22T18:29:06.776Z",
+    "transactionType": "CHARGE",
+    "transactionId": "531QAHAJ6EJA",
+    "shipTaxRate": "0.0938",
+    "giftWrapTaxRate": "0.00",
+    "legalEntityName": "Kaitlyn's Resume",
+    "purchasingCustomerGroupName": "Kaitlyn's Resume",
+    "amount": {
+      "currencyCode": "USD",
+      "amount": "17.48"
+    },
+    "paymentInstrumentType": "American Express",
+    "paymentInstrumentLast4Digits": "6018",
+    "buyer": {
+      "id": "amzn1.account.IPJV3Y7H547S4OTUIYFXEMTUNF2GINLRMZYGCNTDNB2TGN32NFQWFN3U7GUWORJFH6X7WFG54LCQUAIER24KPTPV3SFYCVXTGJ2OADQ",
+      "name": "Kaitlyn Will",
+      "email": "kwill6165@gmail.com"
+    },
+    "payer": {
+      "id": "amzn1.account.IPJV3Y7H547S4OTUIYFXEMTUNF2GINLRMZYGCNTDNB2TGN32NFQWFN3U7GUWORJFH6X7WFG54LCQUAIER24KPTPV3SFYCVXTGJ2OADQ",
+      "name": "Kaitlyn Will",
+      "email": "kwill6165@gmail.com"
+    },
+    "associatedTransactionDetails": [],
+    "transactionLineItems": [
+      {
+        "refundReason": null,
+        "totalAmount": {
+          "currencyCode": "USD",
+          "amount": "17.48"
+        },
+        "principalAmount": {
+          "currencyCode": "USD",
+          "amount": "9.99"
+        },
+        "shippingCharge": {
+          "currencyCode": "USD",
+          "amount": "5.99"
+        },
+        "regulatoryFee": null,
+        "giftWrappingCharge": null,
+        "discount": null,
+        "tax": {
+          "currencyCode": "USD",
+          "amount": "1.50"
+        },
+        "unitPrice": {
+          "currencyCode": "USD",
+          "amount": "9.99"
+        },
+        "taxRate": "0.0938",
+        "orderId": "112-6469737-8623431",
+        "unspsc": "14111500",
+        "orderLineItemId": "47547907130161",
+        "purchaseOrderNumber": "567402",
+        "purchaseOrderLineItemId": null,
+        "asin": "B08NWJH6KF",
+        "productTitle": "Daisy by bloom daily planners 2021-2022 Academic Year Student Day Planner (July 2021 - July 2022) - Elementary to Middle School Calendar Agenda Book -",
+        "itemQuantity": 1,
+        "shipmentId": "UfNMms9Xr",
+        "shipmentDate": "2021-09-22T16:47:12Z",
+        "merchantLegalName": "Student Media Group",
+        "budgetId": null,
+        "businessOrderInfo": {
+          "GL code": "School",
+          "Location": ""
+        }
+      }
+    ]
+  },
+  {
+    "transactionDate": "2021-08-21T14:06:19Z",
+    "feedDate": "2021-08-21T14:50:41.263Z",
+    "transactionType": "CHARGE",
+    "transactionId": "W7QBSI8EZ6I3",
+    "shipTaxRate": "0.0",
+    "giftWrapTaxRate": "0.00",
+    "legalEntityName": "Kaitlyn's Resume",
+    "purchasingCustomerGroupName": "Kaitlyn's Resume",
+    "amount": {
+      "currencyCode": "USD",
+      "amount": "29.14"
+    },
+    "paymentInstrumentType": "American Express",
+    "paymentInstrumentLast4Digits": "6018",
+    "buyer": {
+      "id": "amzn1.account.IPJV3Y7H547S4OTUIYFXEMTUNF2GINLRMZYGCNTDNB2TGN32NFQWFN3U7GUWORJFH6X7WFG54LCQUAIER24KPTPV3SFYCVXTGJ2OADQ",
+      "name": "Kaitlyn Will",
+      "email": "kwill6165@gmail.com"
+    },
+    "payer": {
+      "id": "amzn1.account.IPJV3Y7H547S4OTUIYFXEMTUNF2GINLRMZYGCNTDNB2TGN32NFQWFN3U7GUWORJFH6X7WFG54LCQUAIER24KPTPV3SFYCVXTGJ2OADQ",
+      "name": "Kaitlyn Will",
+      "email": "kwill6165@gmail.com"
+    },
+    "associatedTransactionDetails": [],
+    "transactionLineItems": [
+      {
+        "refundReason": null,
+        "totalAmount": {
+          "currencyCode": "USD",
+          "amount": "10.28"
+        },
+        "principalAmount": {
+          "currencyCode": "USD",
+          "amount": "10.28"
+        },
+        "shippingCharge": {
+          "currencyCode": "USD",
+          "amount": "4.1"
+        },
+        "regulatoryFee": null,
+        "giftWrappingCharge": null,
+        "discount": {
+          "currencyCode": "USD",
+          "amount": "-4.1"
+        },
+        "tax": {
+          "currencyCode": "USD",
+          "amount": "0.0"
+        },
+        "unitPrice": {
+          "currencyCode": "USD",
+          "amount": "10.28"
+        },
+        "taxRate": "0.0",
+        "orderId": "111-9137839-3853855",
+        "unspsc": "50181909",
+        "orderLineItemId": "46407191598001",
+        "purchaseOrderNumber": "#215",
+        "purchaseOrderLineItemId": null,
+        "asin": "B0116WQ62G",
+        "productTitle": "Pepperidge Farm Goldfish Cheddar Crackers, Snack Packs, 45 Oz",
+        "itemQuantity": 1,
+        "shipmentId": "UW8BSh0mz",
+        "shipmentDate": "2021-08-21T13:30:57Z",
+        "merchantLegalName": "Amazon.com Services LLC",
+        "budgetId": null,
+        "businessOrderInfo": {
+          "Cost center": "School Snacks",
+          "Location": "Location Campbell"
+        }
+      },
+      {
+        "refundReason": null,
+        "totalAmount": {
+          "currencyCode": "USD",
+          "amount": "6.98"
+        },
+        "principalAmount": {
+          "currencyCode": "USD",
+          "amount": "6.98"
+        },
+        "shippingCharge": {
+          "currencyCode": "USD",
+          "amount": "2.12"
+        },
+        "regulatoryFee": null,
+        "giftWrappingCharge": null,
+        "discount": {
+          "currencyCode": "USD",
+          "amount": "-2.12"
+        },
+        "tax": {
+          "currencyCode": "USD",
+          "amount": "0.0"
+        },
+        "unitPrice": {
+          "currencyCode": "USD",
+          "amount": "6.98"
+        },
+        "taxRate": "0.0",
+        "orderId": "111-9137839-3853855",
+        "unspsc": "50192100",
+        "orderLineItemId": "46407191597961",
+        "purchaseOrderNumber": "#215",
+        "purchaseOrderLineItemId": null,
+        "asin": "B00HFC2E82",
+        "productTitle": "Welch's Fruit Snacks, Mixed Fruit, Gluten Free, Bulk Pack, 0.9 oz Individual Single Serve Bags (Pack of 40)",
+        "itemQuantity": 1,
+        "shipmentId": "UW8BSh0mz",
+        "shipmentDate": "2021-08-21T13:30:57Z",
+        "merchantLegalName": "Amazon.com Services LLC",
+        "budgetId": null,
+        "businessOrderInfo": {
+          "Cost center": "School Snacks",
+          "Location": "Location Campbell"
+        }
+      },
+      {
+        "refundReason": null,
+        "totalAmount": {
+          "currencyCode": "USD",
+          "amount": "11.88"
+        },
+        "principalAmount": {
+          "currencyCode": "USD",
+          "amount": "11.88"
+        },
+        "shippingCharge": {
+          "currencyCode": "USD",
+          "amount": "8.91"
+        },
+        "regulatoryFee": null,
+        "giftWrappingCharge": null,
+        "discount": {
+          "currencyCode": "USD",
+          "amount": "-8.91"
+        },
+        "tax": {
+          "currencyCode": "USD",
+          "amount": "0.0"
+        },
+        "unitPrice": {
+          "currencyCode": "USD",
+          "amount": "11.88"
+        },
+        "taxRate": "0.0",
+        "orderId": "111-9137839-3853855",
+        "unspsc": "50000000",
+        "orderLineItemId": "46407191597921",
+        "purchaseOrderNumber": "#215",
+        "purchaseOrderLineItemId": null,
+        "asin": "B0069VO1G8",
+        "productTitle": "Snack Pack Chocolate Pudding Cups, 4 Count, 12 Pack",
+        "itemQuantity": 1,
+        "shipmentId": "UW8BSh0mz",
+        "shipmentDate": "2021-08-21T13:30:57Z",
+        "merchantLegalName": "Amazon.com Services LLC",
+        "budgetId": null,
+        "businessOrderInfo": {
+          "Cost center": "School Snacks",
+          "Location": "Location Campbell"
+        }
+      }
+    ]
+  },
+  {
+    "transactionDate": "2021-08-13T04:00:25Z",
+    "feedDate": "2021-08-13T04:34:47.721Z",
+    "transactionType": "CHARGE",
+    "transactionId": "542M08OAVEZY",
+    "shipTaxRate": "0.0",
+    "giftWrapTaxRate": "0.00",
+    "legalEntityName": "Kaitlyn's Resume",
+    "purchasingCustomerGroupName": "Kaitlyn's Resume",
+    "amount": {
+      "currencyCode": "USD",
+      "amount": "21.48"
+    },
+    "paymentInstrumentType": "American Express",
+    "paymentInstrumentLast4Digits": "6018",
+    "buyer": {
+      "id": "amzn1.account.IPJV3Y7H547S4OTUIYFXEMTUNF2GINLRMZYGCNTDNB2TGN32NFQWFN3U7GUWORJFH6X7WFG54LCQUAIER24KPTPV3SFYCVXTGJ2OADQ",
+      "name": "Kaitlyn Will",
+      "email": "kwill6165@gmail.com"
+    },
+    "payer": {
+      "id": "amzn1.account.IPJV3Y7H547S4OTUIYFXEMTUNF2GINLRMZYGCNTDNB2TGN32NFQWFN3U7GUWORJFH6X7WFG54LCQUAIER24KPTPV3SFYCVXTGJ2OADQ",
+      "name": "Kaitlyn Will",
+      "email": "kwill6165@gmail.com"
+    },
+    "associatedTransactionDetails": [],
+    "transactionLineItems": [
+      {
+        "refundReason": null,
+        "totalAmount": {
+          "currencyCode": "USD",
+          "amount": "21.48"
+        },
+        "principalAmount": {
+          "currencyCode": "USD",
+          "amount": "15.49"
+        },
+        "shippingCharge": {
+          "currencyCode": "USD",
+          "amount": "5.99"
+        },
+        "regulatoryFee": null,
+        "giftWrappingCharge": null,
+        "discount": null,
+        "tax": {
+          "currencyCode": "USD",
+          "amount": "0.0"
+        },
+        "unitPrice": {
+          "currencyCode": "USD",
+          "amount": "15.49"
+        },
+        "taxRate": "0.0",
+        "orderId": "114-1025354-9148268",
+        "unspsc": "50201706",
+        "orderLineItemId": "46181677469881",
+        "purchaseOrderNumber": "24",
+        "purchaseOrderLineItemId": null,
+        "asin": "B071WWBKF2",
+        "productTitle": "AmazonFresh Just Bright Whole Bean Coffee, Light Roast, 32 Ounce (Pack of 1)",
+        "itemQuantity": 1,
+        "shipmentId": "UhYmSnngV",
+        "shipmentDate": "2021-08-13T02:52:23Z",
+        "merchantLegalName": "Amazon.com Services LLC",
+        "budgetId": null,
+        "businessOrderInfo": {
+          "Location": "Location Mountain View"
+        }
+      }
+    ]
+  },
+  {
+    "transactionDate": "2021-07-20T07:17:30Z",
+    "feedDate": "2021-07-20T07:52:08.157Z",
+    "transactionType": "CHARGE",
+    "transactionId": "11UCYML6VYFB",
+    "shipTaxRate": "0.0",
+    "giftWrapTaxRate": "0.00",
+    "legalEntityName": "Kaitlyn's Resume",
+    "purchasingCustomerGroupName": "Kaitlyn's Resume",
+    "amount": {
+      "currencyCode": "USD",
+      "amount": "11.29"
+    },
+    "paymentInstrumentType": "American Express",
+    "paymentInstrumentLast4Digits": "6018",
+    "buyer": {
+      "id": "amzn1.account.IPJV3Y7H547S4OTUIYFXEMTUNF2GINLRMZYGCNTDNB2TGN32NFQWFN3U7GUWORJFH6X7WFG54LCQUAIER24KPTPV3SFYCVXTGJ2OADQ",
+      "name": "Kaitlyn Will",
+      "email": "kwill6165@gmail.com"
+    },
+    "payer": {
+      "id": "amzn1.account.IPJV3Y7H547S4OTUIYFXEMTUNF2GINLRMZYGCNTDNB2TGN32NFQWFN3U7GUWORJFH6X7WFG54LCQUAIER24KPTPV3SFYCVXTGJ2OADQ",
+      "name": "Kaitlyn Will",
+      "email": "kwill6165@gmail.com"
+    },
+    "associatedTransactionDetails": [],
+    "transactionLineItems": [
+      {
+        "refundReason": null,
+        "totalAmount": {
+          "currencyCode": "USD",
+          "amount": "11.29"
+        },
+        "principalAmount": {
+          "currencyCode": "USD",
+          "amount": "5.3"
+        },
+        "shippingCharge": {
+          "currencyCode": "USD",
+          "amount": "5.99"
+        },
+        "regulatoryFee": null,
+        "giftWrappingCharge": null,
+        "discount": null,
+        "tax": {
+          "currencyCode": "USD",
+          "amount": "0.0"
+        },
+        "unitPrice": {
+          "currencyCode": "USD",
+          "amount": "5.30"
+        },
+        "taxRate": "0.0",
+        "orderId": "111-9074156-0878635",
+        "unspsc": "50201706",
+        "orderLineItemId": "45425113419481",
+        "purchaseOrderNumber": "12345",
+        "purchaseOrderLineItemId": null,
+        "asin": "B071ZR7H65",
+        "productTitle": "AmazonFresh Colombia Ground Coffee, Medium Roast, 12 Ounce",
+        "itemQuantity": 1,
+        "shipmentId": "UWXhJy2By",
+        "shipmentDate": "2021-07-20T06:15:43Z",
+        "merchantLegalName": "Amazon.com Services LLC",
+        "budgetId": null,
+        "businessOrderInfo": {
+          "Location": "Location Campbell"
+        }
+      }
+    ]
+  },
+  {
+    "transactionDate": "2021-07-08T21:38:19Z",
+    "feedDate": "2021-07-08T21:50:27.133Z",
+    "transactionType": "REFUND",
+    "transactionId": "5FGVUVUC1QR",
+    "shipTaxRate": "0.00",
+    "giftWrapTaxRate": "0.00",
+    "legalEntityName": "Kaitlyn's Resume",
+    "purchasingCustomerGroupName": "Kaitlyn's Resume",
+    "amount": {
+      "currencyCode": "USD",
+      "amount": "27.46"
+    },
+    "paymentInstrumentType": "American Express",
+    "paymentInstrumentLast4Digits": "6018",
+    "buyer": {
+      "id": "amzn1.account.IPJV3Y7H547S4OTUIYFXEMTUNF2GINLRMZYGCNTDNB2TGN32NFQWFN3U7GUWORJFH6X7WFG54LCQUAIER24KPTPV3SFYCVXTGJ2OADQ",
+      "name": "Kaitlyn Will",
+      "email": "kwill6165@gmail.com"
+    },
+    "payer": null,
+    "associatedTransactionDetails": [],
+    "transactionLineItems": [
+      {
+        "refundReason": "CustomerReturn",
+        "totalAmount": {
+          "currencyCode": "USD",
+          "amount": "27.46"
+        },
+        "principalAmount": {
+          "currencyCode": "USD",
+          "amount": "19.15"
+        },
+        "shippingCharge": {
+          "currencyCode": "USD",
+          "amount": "5.99"
+        },
+        "regulatoryFee": null,
+        "giftWrappingCharge": null,
+        "discount": null,
+        "tax": {
+          "currencyCode": "USD",
+          "amount": "2.32"
+        },
+        "unitPrice": null,
+        "taxRate": "0.00",
+        "orderId": "111-0344971-5725017",
+        "unspsc": "44112000",
+        "orderLineItemId": "44596886177521",
+        "purchaseOrderNumber": "123456",
+        "purchaseOrderLineItemId": null,
+        "asin": "B08SBKSCM3",
+        "productTitle": "Day Designer for Blue Sky 2021-2022 Academic Year Weekly & Monthly Planner, 8.5\" x 11\", Frosted Flexible Cover, Wirebound, Palms (132259)",
+        "itemQuantity": 1,
+        "shipmentId": "UkLbYj7xH",
+        "shipmentDate": null,
+        "merchantLegalName": "Amazon.com Services LLC",
+        "budgetId": null,
+        "businessOrderInfo": {
+          "Location": "Location Mountain View"
+        }
+      }
+    ]
+  },
+  {
+    "transactionDate": "2021-07-08T20:38:12Z",
+    "feedDate": "2021-07-08T20:48:14.792Z",
+    "transactionType": "REFUND",
+    "transactionId": "OREZFL8U9MM",
+    "shipTaxRate": "0.00",
+    "giftWrapTaxRate": "0.00",
+    "legalEntityName": "Kaitlyn's Resume",
+    "purchasingCustomerGroupName": "Kaitlyn's Resume",
+    "amount": {
+      "currencyCode": "USD",
+      "amount": "6.22"
+    },
+    "paymentInstrumentType": "American Express",
+    "paymentInstrumentLast4Digits": "6018",
+    "buyer": {
+      "id": "amzn1.account.IPJV3Y7H547S4OTUIYFXEMTUNF2GINLRMZYGCNTDNB2TGN32NFQWFN3U7GUWORJFH6X7WFG54LCQUAIER24KPTPV3SFYCVXTGJ2OADQ",
+      "name": "Kaitlyn Will",
+      "email": "kwill6165@gmail.com"
+    },
+    "payer": null,
+    "associatedTransactionDetails": [],
+    "transactionLineItems": [
+      {
+        "refundReason": "DifferentItem",
+        "totalAmount": {
+          "currencyCode": "USD",
+          "amount": "6.22"
+        },
+        "principalAmount": {
+          "currencyCode": "USD",
+          "amount": "5.69"
+        },
+        "shippingCharge": null,
+        "regulatoryFee": null,
+        "giftWrappingCharge": null,
+        "discount": null,
+        "tax": {
+          "currencyCode": "USD",
+          "amount": "0.53"
+        },
+        "unitPrice": null,
+        "taxRate": "0.00",
+        "orderId": "113-3177347-2682644",
+        "unspsc": "55101500",
+        "orderLineItemId": "44157694642041",
+        "purchaseOrderNumber": null,
+        "purchaseOrderLineItemId": null,
+        "asin": "1416912533",
+        "productTitle": "Scream for Ice Cream (Nancy Drew and the Clue Crew #2)",
+        "itemQuantity": 1,
+        "shipmentId": "Dkkpgy49h",
+        "shipmentDate": null,
+        "merchantLegalName": "Amazon.com Services LLC",
+        "budgetId": null,
+        "businessOrderInfo": {
+          "Location": "Location Campbell"
+        }
+      }
+    ]
+  },
+  {
+    "transactionDate": "2021-06-25T03:24:22Z",
+    "feedDate": "2021-06-25T03:54:47.846Z",
+    "transactionType": "CHARGE",
+    "transactionId": "5XMQFCA6WOD6",
+    "shipTaxRate": "0.0925",
+    "giftWrapTaxRate": "0.00",
+    "legalEntityName": "Kaitlyn's Resume",
+    "purchasingCustomerGroupName": "Kaitlyn's Resume",
+    "amount": {
+      "currencyCode": "USD",
+      "amount": "27.46"
+    },
+    "paymentInstrumentType": "American Express",
+    "paymentInstrumentLast4Digits": "6018",
+    "buyer": {
+      "id": "amzn1.account.IPJV3Y7H547S4OTUIYFXEMTUNF2GINLRMZYGCNTDNB2TGN32NFQWFN3U7GUWORJFH6X7WFG54LCQUAIER24KPTPV3SFYCVXTGJ2OADQ",
+      "name": "Kaitlyn Will",
+      "email": "kwill6165@gmail.com"
+    },
+    "payer": {
+      "id": "amzn1.account.IPJV3Y7H547S4OTUIYFXEMTUNF2GINLRMZYGCNTDNB2TGN32NFQWFN3U7GUWORJFH6X7WFG54LCQUAIER24KPTPV3SFYCVXTGJ2OADQ",
+      "name": "Kaitlyn Will",
+      "email": "kwill6165@gmail.com"
+    },
+    "associatedTransactionDetails": [],
+    "transactionLineItems": [
+      {
+        "refundReason": null,
+        "totalAmount": {
+          "currencyCode": "USD",
+          "amount": "27.46"
+        },
+        "principalAmount": {
+          "currencyCode": "USD",
+          "amount": "19.15"
+        },
+        "shippingCharge": {
+          "currencyCode": "USD",
+          "amount": "5.99"
+        },
+        "regulatoryFee": null,
+        "giftWrappingCharge": null,
+        "discount": null,
+        "tax": {
+          "currencyCode": "USD",
+          "amount": "2.32"
+        },
+        "unitPrice": {
+          "currencyCode": "USD",
+          "amount": "19.15"
+        },
+        "taxRate": "0.0925",
+        "orderId": "111-0344971-5725017",
+        "unspsc": "14111500",
+        "orderLineItemId": "44596886177521",
+        "purchaseOrderNumber": "123456",
+        "purchaseOrderLineItemId": null,
+        "asin": "B08SBKSCM3",
+        "productTitle": "Day Designer for Blue Sky 2021-2022 Academic Year Weekly & Monthly Planner, 8.5\" x 11\", Frosted Flexible Cover, Wirebound, Palms (132259)",
+        "itemQuantity": 1,
+        "shipmentId": "UkLbYj7xH",
+        "shipmentDate": "2021-06-25T01:48:29Z",
+        "merchantLegalName": "Amazon.com Services LLC",
+        "budgetId": null,
+        "businessOrderInfo": {
+          "Location": "Location Mountain View"
+        }
+      }
+    ]
+  },
+  {
+    "transactionDate": "2021-06-14T06:31:38.308Z",
+    "feedDate": "2021-06-14T07:17:05.655Z",
+    "transactionType": "REFUND",
+    "transactionId": "264YQ0OYLYK",
+    "shipTaxRate": "0.00",
+    "giftWrapTaxRate": "0.00",
+    "legalEntityName": "Kaitlyn's Resume",
+    "purchasingCustomerGroupName": "Kaitlyn's Resume",
+    "amount": {
+      "currencyCode": "USD",
+      "amount": "195.56"
+    },
+    "paymentInstrumentType": "Credit Card",
+    "paymentInstrumentLast4Digits": null,
+    "buyer": {
+      "id": "amzn1.account.EMKEKP7XSLPWEBMXUHXHEMTUNF2GINLRMZYGCNTDNB2TGN32NFQQKWIYZKMIWVP5QU7LMO4T4NVAZ7GLFDISGRXMZW6EC7LZYZIXNFY",
+      "name": "Kaitlyn's Resume",
+      "email": ""
+    },
+    "payer": null,
+    "associatedTransactionDetails": [],
+    "transactionLineItems": [
+      {
+        "refundReason": "UNWANTED",
+        "totalAmount": {
+          "currencyCode": "USD",
+          "amount": "195.56"
+        },
+        "principalAmount": null,
+        "shippingCharge": null,
+        "regulatoryFee": null,
+        "giftWrappingCharge": null,
+        "discount": null,
+        "tax": null,
+        "unitPrice": null,
+        "taxRate": "0.00",
+        "orderId": "D01-2534803-5833841",
+        "unspsc": "64131500",
+        "orderLineItemId": "11613086270960",
+        "purchaseOrderNumber": null,
+        "purchaseOrderLineItemId": null,
+        "asin": "B07HSRNWBG",
+        "productTitle": "Business Prime Essentials - Membership Fee",
+        "itemQuantity": 1,
+        "shipmentId": null,
+        "shipmentDate": null,
+        "merchantLegalName": "Amazon.com Services LLC",
+        "budgetId": null,
+        "businessOrderInfo": null
+      }
+    ]
+  },
+  {
+    "transactionDate": "2021-06-08T00:48:44Z",
+    "feedDate": "2021-06-08T01:51:57.849Z",
+    "transactionType": "CHARGE",
+    "transactionId": "29XWKBW86KI8",
+    "shipTaxRate": "0.00",
+    "giftWrapTaxRate": "0.00",
+    "legalEntityName": "Kaitlyn's Resume",
+    "purchasingCustomerGroupName": "Kaitlyn's Resume",
+    "amount": {
+      "currencyCode": "USD",
+      "amount": "32.43"
+    },
+    "paymentInstrumentType": "American Express",
+    "paymentInstrumentLast4Digits": "6018",
+    "buyer": {
+      "id": "amzn1.account.IPJV3Y7H547S4OTUIYFXEMTUNF2GINLRMZYGCNTDNB2TGN32NFQWFN3U7GUWORJFH6X7WFG54LCQUAIER24KPTPV3SFYCVXTGJ2OADQ",
+      "name": "Kaitlyn Will",
+      "email": "kwill6165@gmail.com"
+    },
+    "payer": {
+      "id": "amzn1.account.IPJV3Y7H547S4OTUIYFXEMTUNF2GINLRMZYGCNTDNB2TGN32NFQWFN3U7GUWORJFH6X7WFG54LCQUAIER24KPTPV3SFYCVXTGJ2OADQ",
+      "name": "Kaitlyn Will",
+      "email": "kwill6165@gmail.com"
+    },
+    "associatedTransactionDetails": [],
+    "transactionLineItems": [
+      {
+        "refundReason": null,
+        "totalAmount": {
+          "currencyCode": "USD",
+          "amount": "6.22"
+        },
+        "principalAmount": {
+          "currencyCode": "USD",
+          "amount": "5.69"
+        },
+        "shippingCharge": {
+          "currencyCode": "USD",
+          "amount": "0.0"
+        },
+        "regulatoryFee": null,
+        "giftWrappingCharge": null,
+        "discount": null,
+        "tax": {
+          "currencyCode": "USD",
+          "amount": "0.53"
+        },
+        "unitPrice": {
+          "currencyCode": "USD",
+          "amount": "5.69"
+        },
+        "taxRate": "0.0925",
+        "orderId": "113-3177347-2682644",
+        "unspsc": "55101500",
+        "orderLineItemId": "44157694642041",
+        "purchaseOrderNumber": "",
+        "purchaseOrderLineItemId": null,
+        "asin": "1416912533",
+        "productTitle": "Scream for Ice Cream (Nancy Drew and the Clue Crew #2)",
+        "itemQuantity": 1,
+        "shipmentId": "Dkkpgy49h",
+        "shipmentDate": "2021-06-07T23:50:08Z",
+        "merchantLegalName": "Amazon.com Services LLC",
+        "budgetId": null,
+        "businessOrderInfo": {
+          "Location": "Location Campbell"
+        }
+      },
+      {
+        "refundReason": null,
+        "totalAmount": {
+          "currencyCode": "USD",
+          "amount": "21.84"
+        },
+        "principalAmount": {
+          "currencyCode": "USD",
+          "amount": "19.99"
+        },
+        "shippingCharge": {
+          "currencyCode": "USD",
+          "amount": "0.0"
+        },
+        "regulatoryFee": null,
+        "giftWrappingCharge": null,
+        "discount": null,
+        "tax": {
+          "currencyCode": "USD",
+          "amount": "1.85"
+        },
+        "unitPrice": {
+          "currencyCode": "USD",
+          "amount": "19.99"
+        },
+        "taxRate": "0.0925",
+        "orderId": "113-3177347-2682644",
+        "unspsc": "52152000",
+        "orderLineItemId": "44157694642001",
+        "purchaseOrderNumber": "",
+        "purchaseOrderLineItemId": null,
+        "asin": "B07QHBQMNL",
+        "productTitle": "Snack Containers for Kids Toddlers | MINI Bento Lunch-Box | SMALL Bento-Box Portion Container | Toddler Pre-School | Leak-proof Boxes for Girls or Tee",
+        "itemQuantity": 1,
+        "shipmentId": "Dkkpgy49h",
+        "shipmentDate": "2021-06-07T23:50:08Z",
+        "merchantLegalName": "H Sears",
+        "budgetId": null,
+        "businessOrderInfo": {
+          "Location": "Location Campbell"
+        }
+      },
+      {
+        "refundReason": null,
+        "totalAmount": {
+          "currencyCode": "USD",
+          "amount": "4.37"
+        },
+        "principalAmount": {
+          "currencyCode": "USD",
+          "amount": "4.0"
+        },
+        "shippingCharge": {
+          "currencyCode": "USD",
+          "amount": "0.0"
+        },
+        "regulatoryFee": null,
+        "giftWrappingCharge": null,
+        "discount": null,
+        "tax": {
+          "currencyCode": "USD",
+          "amount": "0.37"
+        },
+        "unitPrice": {
+          "currencyCode": "USD",
+          "amount": "4.00"
+        },
+        "taxRate": "0.0925",
+        "orderId": "113-3177347-2682644",
+        "unspsc": "47131824",
+        "orderLineItemId": "44157694642081",
+        "purchaseOrderNumber": "",
+        "purchaseOrderLineItemId": null,
+        "asin": "B08R7CQRD7",
+        "productTitle": "Windex Glass and Window Cleaner Refill Bottle, Bottle Made from 100% Recycled Plastic, Original Blue, 32 fl oz",
+        "itemQuantity": 1,
+        "shipmentId": "D71vdV44h",
+        "shipmentDate": "2021-06-07T18:18:02Z",
+        "merchantLegalName": "Amazon.com Services LLC",
+        "budgetId": null,
+        "businessOrderInfo": {
+          "Location": "Location Campbell"
+        }
+      }
+    ]
+  },
+  {
+    "transactionDate": "2021-05-16T12:28:49Z",
+    "feedDate": "2021-05-16T13:08:10.967Z",
+    "transactionType": "CHARGE",
+    "transactionId": "1EK7M287IKW4",
+    "shipTaxRate": "0.00",
+    "giftWrapTaxRate": "0.00",
+    "legalEntityName": "Kaitlyn's Resume",
+    "purchasingCustomerGroupName": "Kaitlyn's Resume",
+    "amount": {
+      "currencyCode": "USD",
+      "amount": "19.89"
+    },
+    "paymentInstrumentType": "American Express",
+    "paymentInstrumentLast4Digits": "6018",
+    "buyer": {
+      "id": "amzn1.account.IPJV3Y7H547S4OTUIYFXEMTUNF2GINLRMZYGCNTDNB2TGN32NFQWFN3U7GUWORJFH6X7WFG54LCQUAIER24KPTPV3SFYCVXTGJ2OADQ",
+      "name": "Kaitlyn Will",
+      "email": "kwill6165@gmail.com"
+    },
+    "payer": {
+      "id": "amzn1.account.IPJV3Y7H547S4OTUIYFXEMTUNF2GINLRMZYGCNTDNB2TGN32NFQWFN3U7GUWORJFH6X7WFG54LCQUAIER24KPTPV3SFYCVXTGJ2OADQ",
+      "name": "Kaitlyn Will",
+      "email": "kwill6165@gmail.com"
+    },
+    "associatedTransactionDetails": [],
+    "transactionLineItems": [
+      {
+        "refundReason": null,
+        "totalAmount": {
+          "currencyCode": "USD",
+          "amount": "8.99"
+        },
+        "principalAmount": {
+          "currencyCode": "USD",
+          "amount": "8.99"
+        },
+        "shippingCharge": {
+          "currencyCode": "USD",
+          "amount": "0.0"
+        },
+        "regulatoryFee": null,
+        "giftWrappingCharge": null,
+        "discount": null,
+        "tax": {
+          "currencyCode": "USD",
+          "amount": "0.0"
+        },
+        "unitPrice": {
+          "currencyCode": "USD",
+          "amount": "8.99"
+        },
+        "taxRate": "0.0",
+        "orderId": "114-1318493-6804228",
+        "unspsc": "50201706",
+        "orderLineItemId": "43347523331641",
+        "purchaseOrderNumber": "1234",
+        "purchaseOrderLineItemId": null,
+        "asin": "B01KQLUU7U",
+        "productTitle": "Kicking Horse Coffee, Smart Ass, Medium Roast, Ground, 10 Oz - Certified Organic, Fairtrade, Kosher Coffee",
+        "itemQuantity": 1,
+        "shipmentId": "DqBcsjBFq",
+        "shipmentDate": "2021-05-16T11:18:56Z",
+        "merchantLegalName": "Amazon.com Services LLC",
+        "budgetId": null,
+        "businessOrderInfo": null
+      },
+      {
+        "refundReason": null,
+        "totalAmount": {
+          "currencyCode": "USD",
+          "amount": "10.90"
+        },
+        "principalAmount": {
+          "currencyCode": "USD",
+          "amount": "11.98"
+        },
+        "shippingCharge": {
+          "currencyCode": "USD",
+          "amount": "0.0"
+        },
+        "regulatoryFee": null,
+        "giftWrappingCharge": null,
+        "discount": {
+          "currencyCode": "USD",
+          "amount": "-2.0"
+        },
+        "tax": {
+          "currencyCode": "USD",
+          "amount": "0.92"
+        },
+        "unitPrice": {
+          "currencyCode": "USD",
+          "amount": "11.98"
+        },
+        "taxRate": "0.0925",
+        "orderId": "114-1318493-6804228",
+        "unspsc": "43191601",
+        "orderLineItemId": "43347522473401",
+        "purchaseOrderNumber": "1234",
+        "purchaseOrderLineItemId": null,
+        "asin": "B08VHGGJVZ",
+        "productTitle": "Cordking iPhone XR Cases, Silicone Ultra Slim Shockproof Phone Case with [Soft Anti-Scratch Microfiber Lining], 6.1 inch, Midnight Green",
+        "itemQuantity": 1,
+        "shipmentId": "DqBcsjBFq",
+        "shipmentDate": "2021-05-16T11:18:56Z",
+        "merchantLegalName": "TianJinFuChenTeZiDongHuaJiShuYouXianGongSi",
+        "budgetId": null,
+        "businessOrderInfo": null
+      }
+    ]
+  },
+  {
+    "transactionDate": "2021-05-14T19:10:19Z",
+    "feedDate": "2021-05-14T19:49:40.186Z",
+    "transactionType": "CHARGE",
+    "transactionId": "3FEENTI15QDR",
+    "shipTaxRate": "0.00",
+    "giftWrapTaxRate": "0.00",
+    "legalEntityName": "Kaitlyn's Resume",
+    "purchasingCustomerGroupName": "Kaitlyn's Resume",
+    "amount": {
+      "currencyCode": "USD",
+      "amount": "37.89"
+    },
+    "paymentInstrumentType": "American Express",
+    "paymentInstrumentLast4Digits": "6018",
+    "buyer": {
+      "id": "amzn1.account.IPJV3Y7H547S4OTUIYFXEMTUNF2GINLRMZYGCNTDNB2TGN32NFQWFN3U7GUWORJFH6X7WFG54LCQUAIER24KPTPV3SFYCVXTGJ2OADQ",
+      "name": "Kaitlyn Will",
+      "email": "kwill6165@gmail.com"
+    },
+    "payer": {
+      "id": "amzn1.account.IPJV3Y7H547S4OTUIYFXEMTUNF2GINLRMZYGCNTDNB2TGN32NFQWFN3U7GUWORJFH6X7WFG54LCQUAIER24KPTPV3SFYCVXTGJ2OADQ",
+      "name": "Kaitlyn Will",
+      "email": "kwill6165@gmail.com"
+    },
+    "associatedTransactionDetails": [],
+    "transactionLineItems": [
+      {
+        "refundReason": null,
+        "totalAmount": {
+          "currencyCode": "USD",
+          "amount": "9.29"
+        },
+        "principalAmount": {
+          "currencyCode": "USD",
+          "amount": "8.5"
+        },
+        "shippingCharge": {
+          "currencyCode": "USD",
+          "amount": "0.0"
+        },
+        "regulatoryFee": null,
+        "giftWrappingCharge": null,
+        "discount": null,
+        "tax": {
+          "currencyCode": "USD",
+          "amount": "0.79"
+        },
+        "unitPrice": {
+          "currencyCode": "USD",
+          "amount": "8.50"
+        },
+        "taxRate": "0.0925",
+        "orderId": "114-3524704-1795427",
+        "unspsc": "52152000",
+        "orderLineItemId": "43362421507241",
+        "purchaseOrderNumber": "Kids lunch",
+        "purchaseOrderLineItemId": null,
+        "asin": "B07THCNZK2",
+        "productTitle": "Condiment Cups Containers with Lids- 6 pk. 1.3 oz.Salad Dressing Container to go Small Food Storage Containers with Lids- Sauce Cups Leak proof Reusab",
+        "itemQuantity": 1,
+        "shipmentId": "D4M5VV6Lq",
+        "shipmentDate": "2021-05-14T18:17:14Z",
+        "merchantLegalName": "S&R BRANDS INC",
+        "budgetId": null,
+        "businessOrderInfo": null
+      },
+      {
+        "refundReason": null,
+        "totalAmount": {
+          "currencyCode": "USD",
+          "amount": "14.85"
+        },
+        "principalAmount": {
+          "currencyCode": "USD",
+          "amount": "13.59"
+        },
+        "shippingCharge": {
+          "currencyCode": "USD",
+          "amount": "0.0"
+        },
+        "regulatoryFee": null,
+        "giftWrappingCharge": null,
+        "discount": null,
+        "tax": {
+          "currencyCode": "USD",
+          "amount": "1.26"
+        },
+        "unitPrice": {
+          "currencyCode": "USD",
+          "amount": "13.59"
+        },
+        "taxRate": "0.0925",
+        "orderId": "114-3524704-1795427",
+        "unspsc": "49121510",
+        "orderLineItemId": "43362421507281",
+        "purchaseOrderNumber": "Kids lunch",
+        "purchaseOrderLineItemId": null,
+        "asin": "B08CMD7PKL",
+        "productTitle": "Kids Lunch box Insulated Soft Bag Mini Cooler Back to School Thermal Meal Tote Kit for Girls, Boys, Sea Blue",
+        "itemQuantity": 1,
+        "shipmentId": "DsPdxD6Qq",
+        "shipmentDate": "2021-05-14T16:49:57Z",
+        "merchantLegalName": "Flowish Inc.",
+        "budgetId": null,
+        "businessOrderInfo": null
+      },
+      {
+        "refundReason": null,
+        "totalAmount": {
+          "currencyCode": "USD",
+          "amount": "13.75"
+        },
+        "principalAmount": {
+          "currencyCode": "USD",
+          "amount": "12.59"
+        },
+        "shippingCharge": {
+          "currencyCode": "USD",
+          "amount": "0.0"
+        },
+        "regulatoryFee": null,
+        "giftWrappingCharge": null,
+        "discount": null,
+        "tax": {
+          "currencyCode": "USD",
+          "amount": "1.16"
+        },
+        "unitPrice": {
+          "currencyCode": "USD",
+          "amount": "12.59"
+        },
+        "taxRate": "0.0925",
+        "orderId": "114-3524704-1795427",
+        "unspsc": "49121510",
+        "orderLineItemId": "43359380040281",
+        "purchaseOrderNumber": "Kids lunch",
+        "purchaseOrderLineItemId": null,
+        "asin": "B08FZRCMLB",
+        "productTitle": "Kids Lunch box Insulated Soft Bag Mini Cooler Back to School Thermal Meal Tote Kit for Girls, Boys,Blue Camo",
+        "itemQuantity": 1,
+        "shipmentId": "Ds1d3l69q",
+        "shipmentDate": "2021-05-13T22:18:59Z",
+        "merchantLegalName": "Flowish Inc.",
+        "budgetId": null,
+        "businessOrderInfo": null
+      }
+    ]
+  },
+  {
+    "transactionDate": "2021-05-11T02:00:38Z",
+    "feedDate": "2021-05-11T02:36:53.997Z",
+    "transactionType": "CHARGE",
+    "transactionId": "2N95QLTMGKPA",
+    "shipTaxRate": "0.00",
+    "giftWrapTaxRate": "0.00",
+    "legalEntityName": "Kaitlyn's Resume",
+    "purchasingCustomerGroupName": "Kaitlyn's Resume",
+    "amount": {
+      "currencyCode": "USD",
+      "amount": "15.83"
+    },
+    "paymentInstrumentType": "American Express",
+    "paymentInstrumentLast4Digits": "6018",
+    "buyer": {
+      "id": "amzn1.account.IPJV3Y7H547S4OTUIYFXEMTUNF2GINLRMZYGCNTDNB2TGN32NFQWFN3U7GUWORJFH6X7WFG54LCQUAIER24KPTPV3SFYCVXTGJ2OADQ",
+      "name": "Kaitlyn Will",
+      "email": "kwill6165@gmail.com"
+    },
+    "payer": {
+      "id": "amzn1.account.IPJV3Y7H547S4OTUIYFXEMTUNF2GINLRMZYGCNTDNB2TGN32NFQWFN3U7GUWORJFH6X7WFG54LCQUAIER24KPTPV3SFYCVXTGJ2OADQ",
+      "name": "Kaitlyn Will",
+      "email": "kwill6165@gmail.com"
+    },
+    "associatedTransactionDetails": [],
+    "transactionLineItems": [
+      {
+        "refundReason": null,
+        "totalAmount": {
+          "currencyCode": "USD",
+          "amount": "15.83"
+        },
+        "principalAmount": {
+          "currencyCode": "USD",
+          "amount": "14.49"
+        },
+        "shippingCharge": {
+          "currencyCode": "USD",
+          "amount": "0.0"
+        },
+        "regulatoryFee": null,
+        "giftWrappingCharge": null,
+        "discount": null,
+        "tax": {
+          "currencyCode": "USD",
+          "amount": "1.34"
+        },
+        "unitPrice": {
+          "currencyCode": "USD",
+          "amount": "14.49"
+        },
+        "taxRate": "0.0925",
+        "orderId": "114-1163475-3903418",
+        "unspsc": "14111500",
+        "orderLineItemId": "43233302825161",
+        "purchaseOrderNumber": "",
+        "purchaseOrderLineItemId": null,
+        "asin": "B08T6LWRCT",
+        "productTitle": "Softcover I Sparkle 8.5\" x 11\" Funny Spiral Notebook/Journal, 120 College Ruled Pages, Durable Gloss Laminated Cover, White Wire-o Spiral. Made in the",
+        "itemQuantity": 1,
+        "shipmentId": "DW0qft4B5",
+        "shipmentDate": "2021-05-11T00:36:41Z",
+        "merchantLegalName": "Navitor, Inc., d/b/a Gotcha Covered Supplies",
+        "budgetId": null,
+        "businessOrderInfo": null
+      }
+    ]
+  },
+  {
+    "transactionDate": "2021-05-11T00:30:29Z",
+    "feedDate": "2021-05-11T01:07:55.633Z",
+    "transactionType": "CHARGE",
+    "transactionId": "4R4C3N7ZV6GK",
+    "shipTaxRate": "0.00",
+    "giftWrapTaxRate": "0.00",
+    "legalEntityName": "Kaitlyn's Resume",
+    "purchasingCustomerGroupName": "Kaitlyn's Resume",
+    "amount": {
+      "currencyCode": "USD",
+      "amount": "6.54"
+    },
+    "paymentInstrumentType": "American Express",
+    "paymentInstrumentLast4Digits": "6018",
+    "buyer": {
+      "id": "amzn1.account.IPJV3Y7H547S4OTUIYFXEMTUNF2GINLRMZYGCNTDNB2TGN32NFQWFN3U7GUWORJFH6X7WFG54LCQUAIER24KPTPV3SFYCVXTGJ2OADQ",
+      "name": "Kaitlyn Will",
+      "email": "kwill6165@gmail.com"
+    },
+    "payer": {
+      "id": "amzn1.account.IPJV3Y7H547S4OTUIYFXEMTUNF2GINLRMZYGCNTDNB2TGN32NFQWFN3U7GUWORJFH6X7WFG54LCQUAIER24KPTPV3SFYCVXTGJ2OADQ",
+      "name": "Kaitlyn Will",
+      "email": "kwill6165@gmail.com"
+    },
+    "associatedTransactionDetails": [],
+    "transactionLineItems": [
+      {
+        "refundReason": null,
+        "totalAmount": {
+          "currencyCode": "USD",
+          "amount": "6.54"
+        },
+        "principalAmount": {
+          "currencyCode": "USD",
+          "amount": "5.99"
+        },
+        "shippingCharge": {
+          "currencyCode": "USD",
+          "amount": "0.0"
+        },
+        "regulatoryFee": null,
+        "giftWrappingCharge": null,
+        "discount": null,
+        "tax": {
+          "currencyCode": "USD",
+          "amount": "0.55"
+        },
+        "unitPrice": {
+          "currencyCode": "USD",
+          "amount": "5.99"
+        },
+        "taxRate": "0.0925",
+        "orderId": "114-6774978-1397021",
+        "unspsc": "55101500",
+        "orderLineItemId": "43237247645121",
+        "purchaseOrderNumber": "",
+        "purchaseOrderLineItemId": null,
+        "asin": "141691255X",
+        "productTitle": "Sleepover Sleuths (Nancy Drew and the Clue Crew #1)",
+        "itemQuantity": 1,
+        "shipmentId": "Dv9sFz4t5",
+        "shipmentDate": "2021-05-10T23:38:48Z",
+        "merchantLegalName": "Amazon.com Services LLC",
+        "budgetId": null,
+        "businessOrderInfo": null
+      }
+    ]
+  },
+  {
+    "transactionDate": "2021-04-27T03:26:33Z",
+    "feedDate": "2021-04-27T04:04:49.047Z",
+    "transactionType": "CHARGE",
+    "transactionId": "1ZPX6SC4S9N1",
+    "shipTaxRate": "0.00",
+    "giftWrapTaxRate": "0.00",
+    "legalEntityName": "Kaitlyn's Resume",
+    "purchasingCustomerGroupName": "Kaitlyn's Resume",
+    "amount": {
+      "currencyCode": "USD",
+      "amount": "17.47"
+    },
+    "paymentInstrumentType": "American Express",
+    "paymentInstrumentLast4Digits": "6018",
+    "buyer": {
+      "id": "amzn1.account.IPJV3Y7H547S4OTUIYFXEMTUNF2GINLRMZYGCNTDNB2TGN32NFQWFN3U7GUWORJFH6X7WFG54LCQUAIER24KPTPV3SFYCVXTGJ2OADQ",
+      "name": "Kaitlyn Will",
+      "email": "kwill6165@gmail.com"
+    },
+    "payer": {
+      "id": "amzn1.account.IPJV3Y7H547S4OTUIYFXEMTUNF2GINLRMZYGCNTDNB2TGN32NFQWFN3U7GUWORJFH6X7WFG54LCQUAIER24KPTPV3SFYCVXTGJ2OADQ",
+      "name": "Kaitlyn Will",
+      "email": "kwill6165@gmail.com"
+    },
+    "associatedTransactionDetails": [],
+    "transactionLineItems": [
+      {
+        "refundReason": null,
+        "totalAmount": {
+          "currencyCode": "USD",
+          "amount": "17.47"
+        },
+        "principalAmount": {
+          "currencyCode": "USD",
+          "amount": "15.99"
+        },
+        "shippingCharge": {
+          "currencyCode": "USD",
+          "amount": "0.0"
+        },
+        "regulatoryFee": null,
+        "giftWrappingCharge": null,
+        "discount": null,
+        "tax": {
+          "currencyCode": "USD",
+          "amount": "1.48"
+        },
+        "unitPrice": {
+          "currencyCode": "USD",
+          "amount": "15.99"
+        },
+        "taxRate": "0.0925",
+        "orderId": "113-3900589-3433069",
+        "unspsc": "55101500",
+        "orderLineItemId": "42749590248241",
+        "purchaseOrderNumber": "Ellie Books",
+        "purchaseOrderLineItemId": null,
+        "asin": "0062979590",
+        "productTitle": "Fancy Nancy: Nancy Clancy's Astounding Chapter Book Quartet: Books 5-8",
+        "itemQuantity": 1,
+        "shipmentId": "DHcBwblh8",
+        "shipmentDate": "2021-04-27T02:33:05Z",
+        "merchantLegalName": "Amazon.com Services LLC",
+        "budgetId": null,
+        "businessOrderInfo": null
+      }
+    ]
+  },
+  {
+    "transactionDate": "2021-04-26T13:55:11Z",
+    "feedDate": "2021-04-26T14:31:43.035Z",
+    "transactionType": "CHARGE",
+    "transactionId": "2LP2ITYZ6E3E",
+    "shipTaxRate": "0.00",
+    "giftWrapTaxRate": "0.00",
+    "legalEntityName": "Kaitlyn's Resume",
+    "purchasingCustomerGroupName": "Kaitlyn's Resume",
+    "amount": {
+      "currencyCode": "USD",
+      "amount": "71.00"
+    },
+    "paymentInstrumentType": "American Express",
+    "paymentInstrumentLast4Digits": "1001",
+    "buyer": {
+      "id": "amzn1.account.3WWVOZ6JIYA3GUGVOIVHEMTUNF2GINLRMZYGCNTDNB2TGN32NFQ2BNJ5JF5TGO5S53EMRNBAOYC6SH2ZGIM3J2HQTOIEKACF6MXMG3A",
+      "name": "Justin Wilchynski",
+      "email": "jwilchynski@gmail.com"
+    },
+    "payer": {
+      "id": "amzn1.account.3WWVOZ6JIYA3GUGVOIVHEMTUNF2GINLRMZYGCNTDNB2TGN32NFQ2BNJ5JF5TGO5S53EMRNBAOYC6SH2ZGIM3J2HQTOIEKACF6MXMG3A",
+      "name": "Justin Wilchynski",
+      "email": "jwilchynski@gmail.com"
+    },
+    "associatedTransactionDetails": [],
+    "transactionLineItems": [
+      {
+        "refundReason": null,
+        "totalAmount": {
+          "currencyCode": "USD",
+          "amount": "71.00"
+        },
+        "principalAmount": {
+          "currencyCode": "USD",
+          "amount": "79.99"
+        },
+        "shippingCharge": {
+          "currencyCode": "USD",
+          "amount": "0.0"
+        },
+        "regulatoryFee": null,
+        "giftWrappingCharge": null,
+        "discount": {
+          "currencyCode": "USD",
+          "amount": "-15.0"
+        },
+        "tax": {
+          "currencyCode": "USD",
+          "amount": "6.01"
+        },
+        "unitPrice": {
+          "currencyCode": "USD",
+          "amount": "79.99"
+        },
+        "taxRate": "0.0925",
+        "orderId": "113-3386438-9708243",
+        "unspsc": "10161500",
+        "orderLineItemId": "42734857690041",
+        "purchaseOrderNumber": "",
+        "purchaseOrderLineItemId": null,
+        "asin": "B0888H1GX3",
+        "productTitle": "Hydroponics Growing System, Indoor Garden Starter Kit with LED Grow Light, Automatic Timer Germination Kit, Height Adjustable (7 Pods)",
+        "itemQuantity": 1,
+        "shipmentId": "DvDpMBdf8",
+        "shipmentDate": "2021-04-26T12:41:55Z",
+        "merchantLegalName": "JOICOM CORPORATION",
+        "budgetId": null,
+        "businessOrderInfo": null
+      }
+    ]
+  },
+  {
+    "transactionDate": "2021-04-25T00:30:21.533Z",
+    "feedDate": "2021-04-25T00:32:52.694Z",
+    "transactionType": "CHARGE",
+    "transactionId": "7CD5ZPLGCSJF",
+    "shipTaxRate": "0.00",
+    "giftWrapTaxRate": "0.00",
+    "legalEntityName": "Kaitlyn's Resume",
+    "purchasingCustomerGroupName": "Kaitlyn's Resume",
+    "amount": {
+      "currencyCode": "USD",
+      "amount": "11.82"
+    },
+    "paymentInstrumentType": "American Express",
+    "paymentInstrumentLast4Digits": "1001",
+    "buyer": {
+      "id": "amzn1.account.3WWVOZ6JIYA3GUGVOIVHEMTUNF2GINLRMZYGCNTDNB2TGN32NFQ2BNJ5JF5TGO5S53EMRNBAOYC6SH2ZGIM3J2HQTOIEKACF6MXMG3A",
+      "name": "Justin Wilchynski",
+      "email": "jwilchynski@gmail.com"
+    },
+    "payer": {
+      "id": "amzn1.account.3WWVOZ6JIYA3GUGVOIVHEMTUNF2GINLRMZYGCNTDNB2TGN32NFQ2BNJ5JF5TGO5S53EMRNBAOYC6SH2ZGIM3J2HQTOIEKACF6MXMG3A",
+      "name": "Justin Wilchynski",
+      "email": "jwilchynski@gmail.com"
+    },
+    "associatedTransactionDetails": [],
+    "transactionLineItems": [
+      {
+        "refundReason": null,
+        "totalAmount": {
+          "currencyCode": "USD",
+          "amount": "11.82"
+        },
+        "principalAmount": {
+          "currencyCode": "USD",
+          "amount": "10.82"
+        },
+        "shippingCharge": {
+          "currencyCode": "USD",
+          "amount": "0.0"
+        },
+        "regulatoryFee": null,
+        "giftWrappingCharge": null,
+        "discount": null,
+        "tax": {
+          "currencyCode": "USD",
+          "amount": "1.00"
+        },
+        "unitPrice": {
+          "currencyCode": "USD",
+          "amount": "10.82"
+        },
+        "taxRate": "0.0925",
+        "orderId": "113-4950340-9569049",
+        "unspsc": "26111702",
+        "orderLineItemId": "42694381938561",
+        "purchaseOrderNumber": "",
+        "purchaseOrderLineItemId": null,
+        "asin": "B00008MOQ7",
+        "productTitle": "Rayovac D Batteries, Alkaline D Cell Batteries (12 Battery Count)",
+        "itemQuantity": 1,
+        "shipmentId": "DxSvnzN6X",
+        "shipmentDate": "2021-04-24T23:15:52Z",
+        "merchantLegalName": "Amazon.com Services LLC",
+        "budgetId": null,
+        "businessOrderInfo": null
+      }
+    ]
+  },
+  {
+    "transactionDate": "2021-04-23T16:18:11Z",
+    "feedDate": "2021-04-23T16:48:26.021Z",
+    "transactionType": "CHARGE",
+    "transactionId": "6D2KHYECU6Q4",
+    "shipTaxRate": "0.00",
+    "giftWrapTaxRate": "0.00",
+    "legalEntityName": "Kaitlyn's Resume",
+    "purchasingCustomerGroupName": "Kaitlyn's Resume",
+    "amount": {
+      "currencyCode": "USD",
+      "amount": "27.30"
+    },
+    "paymentInstrumentType": "American Express",
+    "paymentInstrumentLast4Digits": "6018",
+    "buyer": {
+      "id": "amzn1.account.IPJV3Y7H547S4OTUIYFXEMTUNF2GINLRMZYGCNTDNB2TGN32NFQWFN3U7GUWORJFH6X7WFG54LCQUAIER24KPTPV3SFYCVXTGJ2OADQ",
+      "name": "Kaitlyn Will",
+      "email": "kwill6165@gmail.com"
+    },
+    "payer": {
+      "id": "amzn1.account.IPJV3Y7H547S4OTUIYFXEMTUNF2GINLRMZYGCNTDNB2TGN32NFQWFN3U7GUWORJFH6X7WFG54LCQUAIER24KPTPV3SFYCVXTGJ2OADQ",
+      "name": "Kaitlyn Will",
+      "email": "kwill6165@gmail.com"
+    },
+    "associatedTransactionDetails": [],
+    "transactionLineItems": [
+      {
+        "refundReason": null,
+        "totalAmount": {
+          "currencyCode": "USD",
+          "amount": "27.30"
+        },
+        "principalAmount": {
+          "currencyCode": "USD",
+          "amount": "24.99"
+        },
+        "shippingCharge": {
+          "currencyCode": "USD",
+          "amount": "0.0"
+        },
+        "regulatoryFee": null,
+        "giftWrappingCharge": null,
+        "discount": null,
+        "tax": {
+          "currencyCode": "USD",
+          "amount": "2.31"
+        },
+        "unitPrice": {
+          "currencyCode": "USD",
+          "amount": "24.99"
+        },
+        "taxRate": "0.0925",
+        "orderId": "113-2601229-0697013",
+        "unspsc": "53112000",
+        "orderLineItemId": "42637075677401",
+        "purchaseOrderNumber": "",
+        "purchaseOrderLineItemId": null,
+        "asin": "B07S5L6B77",
+        "productTitle": "Shoe Stretcher for Women Boots Makife High Heel Shoe Stretchers Adjustable Width 2pcs",
+        "itemQuantity": 1,
+        "shipmentId": "DB9sSV25X",
+        "shipmentDate": "2021-04-23T15:24:24Z",
+        "merchantLegalName": "Shenzhen Jinyuan Networking CO,. LTD",
+        "budgetId": null,
+        "businessOrderInfo": null
+      }
+    ]
+  },
+  {
+    "transactionDate": "2021-04-23T07:47:06Z",
+    "feedDate": "2021-04-23T08:18:23.922Z",
+    "transactionType": "CHARGE",
+    "transactionId": "48KL0ZC0GHZH",
+    "shipTaxRate": "0.00",
+    "giftWrapTaxRate": "0.00",
+    "legalEntityName": "Kaitlyn's Resume",
+    "purchasingCustomerGroupName": "Kaitlyn's Resume",
+    "amount": {
+      "currencyCode": "USD",
+      "amount": "5.30"
+    },
+    "paymentInstrumentType": "American Express",
+    "paymentInstrumentLast4Digits": "6018",
+    "buyer": {
+      "id": "amzn1.account.IPJV3Y7H547S4OTUIYFXEMTUNF2GINLRMZYGCNTDNB2TGN32NFQWFN3U7GUWORJFH6X7WFG54LCQUAIER24KPTPV3SFYCVXTGJ2OADQ",
+      "name": "Kaitlyn Will",
+      "email": "kwill6165@gmail.com"
+    },
+    "payer": {
+      "id": "amzn1.account.IPJV3Y7H547S4OTUIYFXEMTUNF2GINLRMZYGCNTDNB2TGN32NFQWFN3U7GUWORJFH6X7WFG54LCQUAIER24KPTPV3SFYCVXTGJ2OADQ",
+      "name": "Kaitlyn Will",
+      "email": "kwill6165@gmail.com"
+    },
+    "associatedTransactionDetails": [],
+    "transactionLineItems": [
+      {
+        "refundReason": null,
+        "totalAmount": {
+          "currencyCode": "USD",
+          "amount": "5.3"
+        },
+        "principalAmount": {
+          "currencyCode": "USD",
+          "amount": "5.3"
+        },
+        "shippingCharge": {
+          "currencyCode": "USD",
+          "amount": "0.0"
+        },
+        "regulatoryFee": null,
+        "giftWrappingCharge": null,
+        "discount": null,
+        "tax": {
+          "currencyCode": "USD",
+          "amount": "0.0"
+        },
+        "unitPrice": {
+          "currencyCode": "USD",
+          "amount": "5.30"
+        },
+        "taxRate": "0.0",
+        "orderId": "113-7976996-1695418",
+        "unspsc": "50201706",
+        "orderLineItemId": "42637075677441",
+        "purchaseOrderNumber": "",
+        "purchaseOrderLineItemId": null,
+        "asin": "B071ZR7H65",
+        "productTitle": "AmazonFresh Colombia Ground Coffee, Medium Roast, 12 Ounce",
+        "itemQuantity": 1,
+        "shipmentId": "DhpfX52YX",
+        "shipmentDate": "2021-04-23T06:09:23Z",
+        "merchantLegalName": "Amazon.com Services LLC",
+        "budgetId": null,
+        "businessOrderInfo": null
+      }
+    ]
+  },
+  {
+    "transactionDate": "2021-04-23T03:31:36Z",
+    "feedDate": "2021-04-23T04:02:58.082Z",
+    "transactionType": "CHARGE",
+    "transactionId": "27BTCJ0CKD6P",
+    "shipTaxRate": "0.00",
+    "giftWrapTaxRate": "0.00",
+    "legalEntityName": "Kaitlyn's Resume",
+    "purchasingCustomerGroupName": "Kaitlyn's Resume",
+    "amount": {
+      "currencyCode": "USD",
+      "amount": "73.70"
+    },
+    "paymentInstrumentType": "American Express",
+    "paymentInstrumentLast4Digits": "6018",
+    "buyer": {
+      "id": "amzn1.account.IPJV3Y7H547S4OTUIYFXEMTUNF2GINLRMZYGCNTDNB2TGN32NFQWFN3U7GUWORJFH6X7WFG54LCQUAIER24KPTPV3SFYCVXTGJ2OADQ",
+      "name": "Kaitlyn Will",
+      "email": "kwill6165@gmail.com"
+    },
+    "payer": {
+      "id": "amzn1.account.IPJV3Y7H547S4OTUIYFXEMTUNF2GINLRMZYGCNTDNB2TGN32NFQWFN3U7GUWORJFH6X7WFG54LCQUAIER24KPTPV3SFYCVXTGJ2OADQ",
+      "name": "Kaitlyn Will",
+      "email": "kwill6165@gmail.com"
+    },
+    "associatedTransactionDetails": [],
+    "transactionLineItems": [
+      {
+        "refundReason": null,
+        "totalAmount": {
+          "currencyCode": "USD",
+          "amount": "73.70"
+        },
+        "principalAmount": {
+          "currencyCode": "USD",
+          "amount": "68.55"
+        },
+        "shippingCharge": {
+          "currencyCode": "USD",
+          "amount": "0.0"
+        },
+        "regulatoryFee": null,
+        "giftWrappingCharge": null,
+        "discount": {
+          "currencyCode": "USD",
+          "amount": "-1.09"
+        },
+        "tax": {
+          "currencyCode": "USD",
+          "amount": "6.24"
+        },
+        "unitPrice": {
+          "currencyCode": "USD",
+          "amount": "68.55"
+        },
+        "taxRate": "0.0925",
+        "orderId": "113-6406061-4030631",
+        "unspsc": "53110000",
+        "orderLineItemId": "42588749634361",
+        "purchaseOrderNumber": "2468",
+        "purchaseOrderLineItemId": null,
+        "asin": "B017MGOU7I",
+        "productTitle": "Rockport Men's Charles Road Slip-On Black Leather 12 W (EE)-12 W",
+        "itemQuantity": 1,
+        "shipmentId": "DhdwPxtlX",
+        "shipmentDate": "2021-04-23T02:03:19Z",
+        "merchantLegalName": "Amazon.com Services LLC",
+        "budgetId": null,
+        "businessOrderInfo": null
+      }
+    ]
+  },
+  {
+    "transactionDate": "2021-04-22T23:31:12Z",
+    "feedDate": "2021-04-23T00:08:41.712Z",
+    "transactionType": "CHARGE",
+    "transactionId": "5Y9064AC6XL1",
+    "shipTaxRate": "0.00",
+    "giftWrapTaxRate": "0.00",
+    "legalEntityName": "Kaitlyn's Resume",
+    "purchasingCustomerGroupName": "Kaitlyn's Resume",
+    "amount": {
+      "currencyCode": "USD",
+      "amount": "31.13"
+    },
+    "paymentInstrumentType": "American Express",
+    "paymentInstrumentLast4Digits": "1001",
+    "buyer": {
+      "id": "amzn1.account.3WWVOZ6JIYA3GUGVOIVHEMTUNF2GINLRMZYGCNTDNB2TGN32NFQ2BNJ5JF5TGO5S53EMRNBAOYC6SH2ZGIM3J2HQTOIEKACF6MXMG3A",
+      "name": "Justin Wilchynski",
+      "email": "jwilchynski@gmail.com"
+    },
+    "payer": {
+      "id": "amzn1.account.3WWVOZ6JIYA3GUGVOIVHEMTUNF2GINLRMZYGCNTDNB2TGN32NFQ2BNJ5JF5TGO5S53EMRNBAOYC6SH2ZGIM3J2HQTOIEKACF6MXMG3A",
+      "name": "Justin Wilchynski",
+      "email": "jwilchynski@gmail.com"
+    },
+    "associatedTransactionDetails": [],
+    "transactionLineItems": [
+      {
+        "refundReason": null,
+        "totalAmount": {
+          "currencyCode": "USD",
+          "amount": "31.13"
+        },
+        "principalAmount": {
+          "currencyCode": "USD",
+          "amount": "29.99"
+        },
+        "shippingCharge": {
+          "currencyCode": "USD",
+          "amount": "0.0"
+        },
+        "regulatoryFee": null,
+        "giftWrappingCharge": null,
+        "discount": {
+          "currencyCode": "USD",
+          "amount": "-1.5"
+        },
+        "tax": {
+          "currencyCode": "USD",
+          "amount": "2.64"
+        },
+        "unitPrice": {
+          "currencyCode": "USD",
+          "amount": "29.99"
+        },
+        "taxRate": "0.0925",
+        "orderId": "113-8622345-8979407",
+        "unspsc": "52161500",
+        "orderLineItemId": "42588655535441",
+        "purchaseOrderNumber": "57689",
+        "purchaseOrderLineItemId": null,
+        "asin": "B0872PPSGM",
+        "productTitle": "BroadLink Smart IR Remote Control Hub with Temperature Humidity Sensor Cable-WiFi IR Blaster for Smart Home Automation, TV Remote, Smart AC Controller",
+        "itemQuantity": 1,
+        "shipmentId": "DWh7LGtNX",
+        "shipmentDate": "2021-04-22T22:39:41Z",
+        "merchantLegalName": "Nanjing Bolian Zhinengkejiyouxiangongsi",
+        "budgetId": null,
+        "businessOrderInfo": null
+      }
+    ]
+  },
+  {
+    "transactionDate": "2021-04-17T01:29:51Z",
+    "feedDate": "2021-04-17T02:09:20.364Z",
+    "transactionType": "CHARGE",
+    "transactionId": "1Y1VDLWT6DB5",
+    "shipTaxRate": "0.00",
+    "giftWrapTaxRate": "0.00",
+    "legalEntityName": "Kaitlyn's Resume",
+    "purchasingCustomerGroupName": "Kaitlyn's Resume",
+    "amount": {
+      "currencyCode": "USD",
+      "amount": "14.52"
+    },
+    "paymentInstrumentType": "American Express",
+    "paymentInstrumentLast4Digits": "6018",
+    "buyer": {
+      "id": "amzn1.account.IPJV3Y7H547S4OTUIYFXEMTUNF2GINLRMZYGCNTDNB2TGN32NFQWFN3U7GUWORJFH6X7WFG54LCQUAIER24KPTPV3SFYCVXTGJ2OADQ",
+      "name": "Kaitlyn Will",
+      "email": "kwill6165@gmail.com"
+    },
+    "payer": {
+      "id": "amzn1.account.IPJV3Y7H547S4OTUIYFXEMTUNF2GINLRMZYGCNTDNB2TGN32NFQWFN3U7GUWORJFH6X7WFG54LCQUAIER24KPTPV3SFYCVXTGJ2OADQ",
+      "name": "Kaitlyn Will",
+      "email": "kwill6165@gmail.com"
+    },
+    "associatedTransactionDetails": [],
+    "transactionLineItems": [
+      {
+        "refundReason": null,
+        "totalAmount": {
+          "currencyCode": "USD",
+          "amount": "14.52"
+        },
+        "principalAmount": {
+          "currencyCode": "USD",
+          "amount": "13.29"
+        },
+        "shippingCharge": {
+          "currencyCode": "USD",
+          "amount": "0.0"
+        },
+        "regulatoryFee": null,
+        "giftWrappingCharge": null,
+        "discount": null,
+        "tax": {
+          "currencyCode": "USD",
+          "amount": "1.23"
+        },
+        "unitPrice": {
+          "currencyCode": "USD",
+          "amount": "13.29"
+        },
+        "taxRate": "0.0925",
+        "orderId": "111-7645113-2873036",
+        "unspsc": "47131502",
+        "orderLineItemId": "42414902371561",
+        "purchaseOrderNumber": "",
+        "purchaseOrderLineItemId": null,
+        "asin": "B00Q70RCW6",
+        "productTitle": "Lysol Disinfecting Wipes, Lemon & Lime Blossom, Packaging May Vary, 80 Count (Pack of 4)",
+        "itemQuantity": 1,
+        "shipmentId": "THWfQnjkC",
+        "shipmentDate": "2021-04-16T21:41:57Z",
+        "merchantLegalName": "Amazon.com Services LLC",
+        "budgetId": null,
+        "businessOrderInfo": null
+      }
+    ]
+  },
+  {
+    "transactionDate": "2021-04-16T13:28:04Z",
+    "feedDate": "2021-04-16T14:02:18.803Z",
+    "transactionType": "CHARGE",
+    "transactionId": "3630OKLE3Z9J",
+    "shipTaxRate": "0.00",
+    "giftWrapTaxRate": "0.00",
+    "legalEntityName": "Kaitlyn's Resume",
+    "purchasingCustomerGroupName": "Kaitlyn's Resume",
+    "amount": {
+      "currencyCode": "USD",
+      "amount": "10.48"
+    },
+    "paymentInstrumentType": "American Express",
+    "paymentInstrumentLast4Digits": "6018",
+    "buyer": {
+      "id": "amzn1.account.IPJV3Y7H547S4OTUIYFXEMTUNF2GINLRMZYGCNTDNB2TGN32NFQWFN3U7GUWORJFH6X7WFG54LCQUAIER24KPTPV3SFYCVXTGJ2OADQ",
+      "name": "Kaitlyn Will",
+      "email": "kwill6165@gmail.com"
+    },
+    "payer": {
+      "id": "amzn1.account.IPJV3Y7H547S4OTUIYFXEMTUNF2GINLRMZYGCNTDNB2TGN32NFQWFN3U7GUWORJFH6X7WFG54LCQUAIER24KPTPV3SFYCVXTGJ2OADQ",
+      "name": "Kaitlyn Will",
+      "email": "kwill6165@gmail.com"
+    },
+    "associatedTransactionDetails": [],
+    "transactionLineItems": [
+      {
+        "refundReason": null,
+        "totalAmount": {
+          "currencyCode": "USD",
+          "amount": "10.48"
+        },
+        "principalAmount": {
+          "currencyCode": "USD",
+          "amount": "9.59"
+        },
+        "shippingCharge": {
+          "currencyCode": "USD",
+          "amount": "0.0"
+        },
+        "regulatoryFee": null,
+        "giftWrappingCharge": null,
+        "discount": null,
+        "tax": {
+          "currencyCode": "USD",
+          "amount": "0.89"
+        },
+        "unitPrice": {
+          "currencyCode": "USD",
+          "amount": "9.59"
+        },
+        "taxRate": "0.0925",
+        "orderId": "113-5747431-7082621",
+        "unspsc": "52150000",
+        "orderLineItemId": "42424255110561",
+        "purchaseOrderNumber": "12345",
+        "purchaseOrderLineItemId": null,
+        "asin": "B01DZQT99I",
+        "productTitle": "Stasher Platinum Silicone Food Grade Reusable Storage Bag, Aqua (Sandwich) | Reduce Single-Use Plastic | Cook, Store, Sous Vide, or Freeze | Leakproof",
+        "itemQuantity": 1,
+        "shipmentId": "Ds0SLFTtX",
+        "shipmentDate": "2021-04-16T12:32:08Z",
+        "merchantLegalName": "Amazon.com Services LLC",
+        "budgetId": null,
+        "businessOrderInfo": null
+      }
+    ]
+  },
+  {
+    "transactionDate": "2021-04-16T09:27:30Z",
+    "feedDate": "2021-04-16T09:59:41.469Z",
+    "transactionType": "CHARGE",
+    "transactionId": "2ZHOSCU6YRSX",
+    "shipTaxRate": "0.00",
+    "giftWrapTaxRate": "0.00",
+    "legalEntityName": "Kaitlyn's Resume",
+    "purchasingCustomerGroupName": "Kaitlyn's Resume",
+    "amount": {
+      "currencyCode": "USD",
+      "amount": "13.06"
+    },
+    "paymentInstrumentType": "American Express",
+    "paymentInstrumentLast4Digits": "6018",
+    "buyer": {
+      "id": "amzn1.account.IPJV3Y7H547S4OTUIYFXEMTUNF2GINLRMZYGCNTDNB2TGN32NFQWFN3U7GUWORJFH6X7WFG54LCQUAIER24KPTPV3SFYCVXTGJ2OADQ",
+      "name": "Kaitlyn Will",
+      "email": "kwill6165@gmail.com"
+    },
+    "payer": {
+      "id": "amzn1.account.IPJV3Y7H547S4OTUIYFXEMTUNF2GINLRMZYGCNTDNB2TGN32NFQWFN3U7GUWORJFH6X7WFG54LCQUAIER24KPTPV3SFYCVXTGJ2OADQ",
+      "name": "Kaitlyn Will",
+      "email": "kwill6165@gmail.com"
+    },
+    "associatedTransactionDetails": [],
+    "transactionLineItems": [
+      {
+        "refundReason": null,
+        "totalAmount": {
+          "currencyCode": "USD",
+          "amount": "13.06"
+        },
+        "principalAmount": {
+          "currencyCode": "USD",
+          "amount": "11.95"
+        },
+        "shippingCharge": {
+          "currencyCode": "USD",
+          "amount": "0.0"
+        },
+        "regulatoryFee": null,
+        "giftWrappingCharge": null,
+        "discount": null,
+        "tax": {
+          "currencyCode": "USD",
+          "amount": "1.11"
+        },
+        "unitPrice": {
+          "currencyCode": "USD",
+          "amount": "11.95"
+        },
+        "taxRate": "0.0925",
+        "orderId": "111-3855883-0114651",
+        "unspsc": "44121701",
+        "orderLineItemId": "42414701594681",
+        "purchaseOrderNumber": "",
+        "purchaseOrderLineItemId": null,
+        "asin": "B07YRQ4176",
+        "productTitle": "Premium Gel Ink Pen Fine Point Pens Ballpoint Pen 0.5mm for Japanese Office School Stationery Supply 12 Packs",
+        "itemQuantity": 1,
+        "shipmentId": "D7s8wDTVX",
+        "shipmentDate": "2021-04-16T09:03:04Z",
+        "merchantLegalName": "Cixi Chaotuo Electronic Commerce Co., Ltd.",
+        "budgetId": null,
+        "businessOrderInfo": null
+      }
+    ]
+  }
+]
