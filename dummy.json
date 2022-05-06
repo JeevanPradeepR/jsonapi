@@ -1,0 +1,22 @@
+{
+   "sub":"43f4ee89-de9e-46d5-89cf-25f417ecb5af",
+   "name":"test test",
+   "given_name":"test",
+   "family_name":"test",
+   "created":"2020-10-29T17:37:20.76",
+   "email":"testprod_20201028_003@mailinator.com",
+   "accounts":[
+      {
+         "account_id":"77dceb17-6675-4a31-8df4-4a02365c69a3",
+         "is_default":true,
+         "account_name":"testprod20201028003",
+         "base_uri":"https://na4.docusign.net"
+      },
+      {
+         "account_id":"4fb8039d-9d7e-468d-8e77-90700089fd55",
+         "is_default":false,
+         "account_name":"testprod20201028005",
+         "base_uri":"https://na4.docusign.net"
+      }
+   ]
+}
